@@ -1,0 +1,50 @@
+.intro {
+    text-align: center;
+    .section-header {
+        > h3 {
+            font-size: 30px;
+            color: #222;
+            margin: 80px 0 30px;
+        }
+    }
+    .header-txt {
+        font-size: 30px;
+        color: #9b0a0f;
+        line-height: 38px;
+        margin-top: 50px;
+    }
+    .header-txt:nth-of-type(1) {
+        margin: 0;
+    }
+    > p {
+        font-size: 15px;
+        color: #999;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    > ul {
+        li {
+            display: inline-block;
+            width: 290px;
+            figure {
+                figcaption {
+                    margin-top: 30px;
+                    h4 {
+                        font-size: 23px;
+                        color: #222;
+                    }
+                    p {
+                        font-size: 15px;
+                        color: #999;
+                        line-height: 22px;
+                        margin-top: 15px;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+        }
+    }
+}
+.philosophy {
+    padding-bottom: 150px;
+}

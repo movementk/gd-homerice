@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 body {
   overflow-y: scroll;
   position: relative;
@@ -276,6 +277,9 @@ address, p {
       width: 50%;
       height: 296px;
       padding: 40px 0 0 38px;
+      -webkit-transition: background .5s ease-out;
+      -moz-transition: background .5s ease-out;
+      -o-transition: background .5s ease-out;
       transition: background .5s ease-out; }
       .introduce .container > div h3 {
         font-size: 25px;
