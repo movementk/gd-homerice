@@ -1,116 +1,78 @@
-#main-menu {
-    section {
-        padding: 71px 0 38px;
-        .container {
-            h4 {
-                height: 25px;
-                font-size: 18px;
-                color: #222;
-                text-align: center;
-                font-family: 'georgia';
-                font-style: italic;
-                line-height: 25px;
-                background-image: url(/assets/images/sub/menu_bg.png);
-                background-repeat: no-repeat;
-                background-position: 50% 50%;
-                background-size: auto 25px;
+/* menu-list */
+.menu-list {
+    li {
+        margin-bottom: 30px;
+        .menu-info {
+            color: #222;
+            width: 100%;
+            display: block;
+            border: 1px solid #dadada;
+            &:hover {
+                border-color: #9f0a0e;
             }
-            h3 {
-                font-size: 30px;
-                color: #222;
-                text-align: center;
-                font-weight: bold;
-                margin: 25px 0;
+            .menu-img {
+                img {
+                    max-width: 368px;
+                }
             }
-            > p {
-                font-size: 15px;
-                color: #999;
-                text-align: center;
-                margin-bottom: 50px;
-            }
-            .menu-list {
-                li {
-                    margin-bottom: 30px;
-                    .menu-info {
+            .details {
+                position: relative;
+                height: 123px;
+                padding: 25px;
+                background-color: #f9f9f9;
+                > h5 {
+                    font-size: 17px;
+                    font-weight: 600;
+                    a {
                         color: #222;
-                        width: 100%;
-                        display: block;
-                        border: 1px solid #dadada;
-                        &:hover {
-                            border-color: #9f0a0e;
-                        }
-                        .menu-img {
-                            img {
-                                max-width: 368px;
-                            }
-                        }
-                        .details {
-                            position: relative;
-                            height: 123px;
-                            padding: 25px;
-                            background-color: #f9f9f9;
-                            > h5 {
-                                font-size: 17px;
-                                font-weight: 600;
-                                a {
-                                    color: #222;
-                                    text-decoration: none;
-                                    > small {
-                                    font-size: 13px;
-                                    color: #999;
-                                    display: inline-block;
-                                    margin-bottom: 7px;
-                                    }
-                                }
-                            }
-                            .amount {
-                                display: inline;
-                                font-size: 21px;
-                                color: #333;
-                                strong {
-                                    font-size: 22px;
-                                    color: #9f0a0e;
-                                }
-                                small {
-                                    font-size: 15px;
-                                    color: #666;
-                                    display: inline-block;
-                                    margin-left: 15px;
-                                    text-decoration: line-through;
-                                }
-                            }
-                            .icon {
-                                position: absolute;
-                                bottom: 25px;
-                                right: 25px;
-                                .cart {
-                                    margin-right: 5px;
-                                    &:hover {
-                                        text-decoration: none;
-                                    }
-                                }
-                                .interest {
-                                    &:hover {
-                                        text-decoration: none;
-                                    }
-                                    img {
-                                        margin-top: 2px;
-                                    }
-                                }
-                            }
+                        text-decoration: none;
+                        > small {
+                        font-size: 13px;
+                        color: #999;
+                        display: inline-block;
+                        margin-bottom: 7px;
                         }
                     }
                 }
-
+                .amount {
+                    display: inline;
+                    font-size: 21px;
+                    color: #333;
+                    strong {
+                        font-size: 22px;
+                        color: #9f0a0e;
+                    }
+                    small {
+                        font-size: 15px;
+                        color: #666;
+                        display: inline-block;
+                        margin-left: 15px;
+                        text-decoration: line-through;
+                    }
+                }
+                .icon {
+                    position: absolute;
+                    bottom: 25px;
+                    right: 25px;
+                    .cart {
+                        margin-right: 5px;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                    .interest {
+                        &:hover {
+                            text-decoration: none;
+                        }
+                        img {
+                            margin-top: 2px;
+                        }
+                    }
+                }
             }
         }
     }
-    .party-menu {
-        background-color: #f2f0e6;
-    }
-    .single-menu {
-        margin-bottom: 32px;
-    }
+
 }
 /* sub 공통 */
 .sub {
@@ -290,7 +252,7 @@
     }
 }
 
-
+ 
 
 
 
