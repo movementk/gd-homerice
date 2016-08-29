@@ -1,3 +1,211 @@
+@charset "UTF-8";
+#main-menu section {
+  padding: 71px 0 38px; }
+  #main-menu section .container h4 {
+    height: 25px;
+    font-size: 18px;
+    color: #222;
+    text-align: center;
+    font-family: 'georgia';
+    font-style: italic;
+    line-height: 25px;
+    background-image: url(/assets/images/sub/menu_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 25px; }
+  #main-menu section .container h3 {
+    font-size: 30px;
+    color: #222;
+    text-align: center;
+    font-weight: bold;
+    margin: 25px 0; }
+  #main-menu section .container > p {
+    font-size: 15px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 50px; }
+  #main-menu section .container .menu-list li {
+    margin-bottom: 30px; }
+    #main-menu section .container .menu-list li .menu-info {
+      color: #222;
+      width: 100%;
+      display: block;
+      border: 1px solid #dadada; }
+      #main-menu section .container .menu-list li .menu-info:hover {
+        border-color: #9f0a0e; }
+      #main-menu section .container .menu-list li .menu-info .menu-img img {
+        max-width: 368px; }
+      #main-menu section .container .menu-list li .menu-info .details {
+        position: relative;
+        height: 123px;
+        padding: 25px;
+        background-color: #f9f9f9; }
+        #main-menu section .container .menu-list li .menu-info .details > h5 {
+          font-size: 17px;
+          font-weight: 600; }
+          #main-menu section .container .menu-list li .menu-info .details > h5 a {
+            color: #222;
+            text-decoration: none; }
+            #main-menu section .container .menu-list li .menu-info .details > h5 a > small {
+              font-size: 13px;
+              color: #999;
+              display: inline-block;
+              margin-bottom: 7px; }
+        #main-menu section .container .menu-list li .menu-info .details .amount {
+          display: inline;
+          font-size: 21px;
+          color: #333; }
+          #main-menu section .container .menu-list li .menu-info .details .amount strong {
+            font-size: 22px;
+            color: #9f0a0e; }
+          #main-menu section .container .menu-list li .menu-info .details .amount small {
+            font-size: 15px;
+            color: #666;
+            display: inline-block;
+            margin-left: 15px;
+            text-decoration: line-through; }
+        #main-menu section .container .menu-list li .menu-info .details .icon {
+          position: absolute;
+          bottom: 25px;
+          right: 25px; }
+          #main-menu section .container .menu-list li .menu-info .details .icon .cart {
+            margin-right: 5px; }
+            #main-menu section .container .menu-list li .menu-info .details .icon .cart:hover {
+              text-decoration: none; }
+          #main-menu section .container .menu-list li .menu-info .details .icon .interest:hover {
+            text-decoration: none; }
+          #main-menu section .container .menu-list li .menu-info .details .icon .interest img {
+            margin-top: 2px; }
+#main-menu .party-menu {
+  background-color: #f2f0e6; }
+#main-menu .single-menu {
+  margin-bottom: 32px; }
 
+/* sub 공통 */
+.sub .sub-visual {
+  height: 330px;
+  padding-top: 106px;
+  background-image: url(/assets/images/sub/sub_visual01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .sub .sub-visual h2 {
+    display: block;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400; }
+    .sub .sub-visual h2 > small {
+      font-size: 22px;
+      color: #fff;
+      display: block;
+      margin-bottom: 15px; }
+  .sub .sub-visual p {
+    font-size: 20px;
+    color: #ebd08f;
+    font-family: 'georgia';
+    font-style: italic;
+    text-align: center;
+    margin-top: 25px; }
+
+.nav {
+  margin: 0 auto;
+  width: 480px; }
+  .nav > li {
+    width: 120px;
+    height: 45px; }
+    .nav > li a {
+      font-size: 15px;
+      color: #666;
+      text-align: center;
+      border-radius: 0;
+      border-top: 1px solid #d4d4d4;
+      border-left: 1px solid #d4d4d4;
+      border-bottom: 1px solid #d4d4d4; }
+  .nav li:last-child a {
+    border-right: 1px solid #d4d4d4; }
+  .nav .active a {
+    border-color: #222;
+    background-color: #222 !important; }
+
+.table-wrap .table thead th {
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  padding: 16px 0;
+  border-bottom: 0;
+  background-color: #f9f9f9; }
+.table-wrap .table tbody td {
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+  padding: 16px 0; }
+.table-wrap .table tbody td:nth-of-type(2) {
+  text-align: left;
+  padding-left: 30px; }
+
+.btn-area p {
+  overflow: hidden; }
+  .btn-area p .btn {
+    border-radius: 0;
+    border: 1px solid #d4d4d4; }
+    .btn-area p .btn:hover {
+      opacity: .8; }
+  .btn-area p .btn-icon {
+    float: left;
+    width: 190px;
+    height: 60px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 60px;
+    padding: 0;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 51px 22px; }
+  .btn-area p .btn-icon.btn-red {
+    background-image: url(/assets/images/sub/cart_02.png); }
+  .btn-area p .btn-icon.btn-charcoal {
+    border-color: #676767;
+    background-color: #676767;
+    background-image: url(/assets/images/sub/cart_02.png); }
+  .btn-area p .btn-icon.btn-gray {
+    border-color: #7b7b7b;
+    background-color: #7b7b7b;
+    background-position: 41px 23px;
+    background-image: url(/assets/images/sub/interest_02.png); }
+  .btn-area p .btn-sm {
+    width: 115px;
+    height: 40px;
+    font-size: 15px;
+    color: #666;
+    line-height: 39px;
+    padding: 0;
+    text-align: center;
+    border-radius: 0; }
+  .btn-area p .btn-red {
+    color: #fff;
+    border-color: #9f080d;
+    background-color: #9f080d; }
+
+.paging {
+  text-align: center; }
+  .paging .pagination {
+    margin: 0;
+    border-radius: 0; }
+    .paging .pagination li a {
+      width: 32px;
+      font-size: 13px;
+      color: #999;
+      text-align: center;
+      padding: 0;
+      border-radius: 0;
+      border: 0; }
+      .paging .pagination li a:focus, .paging .pagination li a:hover {
+        background-color: #fff !important; }
+    .paging .pagination .active a {
+      color: #9f0a0e;
+      background-color: #fff !important; }
 
 /*# sourceMappingURL=sub.css.map */
