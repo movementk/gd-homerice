@@ -1,0 +1,171 @@
+/* 공통 */
+.news-info {
+    padding-bottom: 150px;
+    h3 {
+        font-size: 30px;
+        color: #222;
+        font-weight: bold;
+        text-align: center;
+        margin: 79px 0 49px;
+    }
+}
+
+/* review */
+.review {
+    .table-wrap {
+        .table {
+            tbody {
+                tr {
+                    td {
+                        a {
+                            width: 740px;
+                            display: block;
+                            color: #666;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            overflow: hidden;
+            margin-top: 15px;
+            p {
+                float: right;
+            }
+        }
+    }
+}
+
+/* view */
+.write {
+    .table-wrap {
+        .table {
+            tbody {
+                tr {
+                    th {
+                        font-size: 13px;
+                        color: #666;
+                        font-weight: 600;
+                        text-align: left;
+                        letter-spacing: -1px;
+                        vertical-align: middle;
+                        padding-left: 25px;
+                        background-color: #f9f9f9;
+                        label {
+                            font-size: 13px;
+                            color: #666;
+                            font-weight: 600;
+                            margin-bottom: 0;
+                        }
+                    }
+                    td {
+                        padding: 10px;
+                        text-align: left;
+                        input {
+                            padding: 5px;
+                            height: 28px;
+                            border: 1px solid #ebebeb;
+                            &:focus {
+                                border-color: #9f080d;
+                            }
+                        }
+                        .u-content {
+                            width: 1029px !important;
+                            height: 350px;
+                            padding: 5px;
+                            border: 1px solid #ebebeb;
+                            &:focus {
+                                border-color: #9f080d;
+                            }
+                        }
+                        .form-control {
+                            width: 190px;
+                            box-shadow: none;
+                            border-radius: 0 !important;
+                        }
+                        .email {
+                            width: 310px;
+                        }
+                        .subject {
+                            width: 675px;
+                        }
+                        .file {
+                            width: 243px;
+                        }
+                    }
+                    .captcha {
+                        overflow: hidden;
+                        div {
+                            float: left;
+                            display: inline-block;
+                            width: 192px;
+                            height: 62px;
+                            margin-bottom: 5px;
+                            border: 1px solid #e9e9e9;
+                        }
+                        .form-control {
+                            float: left;
+                            width: 85px;
+                            height: 62px;
+                            margin-left: 5px;
+                        }
+                        p {
+                            clear: both;
+                            font-size: 13px;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        text-align: center;
+        margin-top: 50px;
+        p {
+            .btn-default {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+
+.view {
+    .view-content {
+        .table-wrap {
+            .table {
+                thead {
+                    tr {
+                        .subject {
+                            text-align: left !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* 공통 */
+.news-info {
+  padding-bottom: 150px; }
+  .news-info h3 {
+    font-size: 30px;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+    margin: 79px 0 49px; }
+
+/* review */
+.review .table-wrap .table tbody tr td a {
+  width: 740px;
+  display: block;
+  color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+.review .table-wrap .btn-area {
+  overflow: hidden;
+  margin-top: 15px; }
+  .review .table-wrap .btn-area p {
+    float: right; }
+
+/* view */
+.write .table-wrap .table tbody tr th {
+  font-size: 13px;
+  color: #666;
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: -1px;
+  vertical-align: middle;
+  padding-left: 25px;
+  background-color: #f9f9f9; }
+  .write .table-wrap .table tbody tr th label {
+    font-size: 13px;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 0; }
+.write .table-wrap .table tbody tr td {
+  padding: 10px;
+  text-align: left; }
+  .write .table-wrap .table tbody tr td input {
+    padding: 5px;
+    height: 28px;
+    border: 1px solid #ebebeb; }
+    .write .table-wrap .table tbody tr td input:focus {
+      border-color: #9f080d; }
+  .write .table-wrap .table tbody tr td .u-content {
+    width: 1029px !important;
+    height: 350px;
+    padding: 5px;
+    border: 1px solid #ebebeb; }
+    .write .table-wrap .table tbody tr td .u-content:focus {
+      border-color: #9f080d; }
+  .write .table-wrap .table tbody tr td .form-control {
+    width: 190px;
+    box-shadow: none;
+    border-radius: 0 !important; }
+  .write .table-wrap .table tbody tr td .email {
+    width: 310px; }
+  .write .table-wrap .table tbody tr td .subject {
+    width: 675px; }
+  .write .table-wrap .table tbody tr td .file {
+    width: 243px; }
+.write .table-wrap .table tbody tr .captcha {
+  overflow: hidden; }
+  .write .table-wrap .table tbody tr .captcha div {
+    float: left;
+    display: inline-block;
+    width: 192px;
+    height: 62px;
+    margin-bottom: 5px;
+    border: 1px solid #e9e9e9; }
+  .write .table-wrap .table tbody tr .captcha .form-control {
+    float: left;
+    width: 85px;
+    height: 62px;
+    margin-left: 5px; }
+  .write .table-wrap .table tbody tr .captcha p {
+    clear: both;
+    font-size: 13px;
+    margin-top: 5px; }
+.write .btn-area {
+  text-align: center;
+  margin-top: 50px; }
+  .write .btn-area p .btn-default {
+    margin-left: 5px; }
+
+.view .view-content .table-wrap .table thead tr .subject {
+  text-align: left !important; }
+
+/*# sourceMappingURL=community.css.map */

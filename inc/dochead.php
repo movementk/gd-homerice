@@ -12,3 +12,4 @@
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         <link href="/assets/css/default.css" rel="stylesheet">
+        <link href="/assets/css/sub.css" rel="stylesheet">
