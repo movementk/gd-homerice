@@ -1,85 +1,57 @@
 @charset "UTF-8";
-#main-menu section {
-  padding: 71px 0 38px; }
-  #main-menu section .container h4 {
-    height: 25px;
-    font-size: 18px;
+/* menu-list */
+.menu-list li {
+  margin-bottom: 30px; }
+  .menu-list li .menu-info {
     color: #222;
-    text-align: center;
-    font-family: 'georgia';
-    font-style: italic;
-    line-height: 25px;
-    background-image: url(/assets/images/sub/menu_bg.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: auto 25px; }
-  #main-menu section .container h3 {
-    font-size: 30px;
-    color: #222;
-    text-align: center;
-    font-weight: bold;
-    margin: 25px 0; }
-  #main-menu section .container > p {
-    font-size: 15px;
-    color: #999;
-    text-align: center;
-    margin-bottom: 50px; }
-  #main-menu section .container .menu-list li {
-    margin-bottom: 30px; }
-    #main-menu section .container .menu-list li .menu-info {
-      color: #222;
-      width: 100%;
-      display: block;
-      border: 1px solid #dadada; }
-      #main-menu section .container .menu-list li .menu-info:hover {
-        border-color: #9f0a0e; }
-      #main-menu section .container .menu-list li .menu-info .menu-img img {
-        max-width: 368px; }
-      #main-menu section .container .menu-list li .menu-info .details {
-        position: relative;
-        height: 123px;
-        padding: 25px;
-        background-color: #f9f9f9; }
-        #main-menu section .container .menu-list li .menu-info .details > h5 {
-          font-size: 17px;
-          font-weight: 600; }
-          #main-menu section .container .menu-list li .menu-info .details > h5 a {
-            color: #222;
-            text-decoration: none; }
-            #main-menu section .container .menu-list li .menu-info .details > h5 a > small {
-              font-size: 13px;
-              color: #999;
-              display: inline-block;
-              margin-bottom: 7px; }
-        #main-menu section .container .menu-list li .menu-info .details .amount {
-          display: inline;
-          font-size: 21px;
-          color: #333; }
-          #main-menu section .container .menu-list li .menu-info .details .amount strong {
-            font-size: 22px;
-            color: #9f0a0e; }
-          #main-menu section .container .menu-list li .menu-info .details .amount small {
-            font-size: 15px;
-            color: #666;
+    width: 100%;
+    display: block;
+    border: 1px solid #dadada; }
+    .menu-list li .menu-info:hover {
+      border-color: #9f0a0e; }
+    .menu-list li .menu-info .menu-img img {
+      max-width: 368px; }
+    .menu-list li .menu-info .details {
+      position: relative;
+      height: 123px;
+      padding: 25px;
+      background-color: #f9f9f9; }
+      .menu-list li .menu-info .details > h5 {
+        font-size: 17px;
+        font-weight: 600; }
+        .menu-list li .menu-info .details > h5 a {
+          color: #222;
+          text-decoration: none; }
+          .menu-list li .menu-info .details > h5 a > small {
+            font-size: 13px;
+            color: #999;
             display: inline-block;
-            margin-left: 15px;
-            text-decoration: line-through; }
-        #main-menu section .container .menu-list li .menu-info .details .icon {
-          position: absolute;
-          bottom: 25px;
-          right: 25px; }
-          #main-menu section .container .menu-list li .menu-info .details .icon .cart {
-            margin-right: 5px; }
-            #main-menu section .container .menu-list li .menu-info .details .icon .cart:hover {
-              text-decoration: none; }
-          #main-menu section .container .menu-list li .menu-info .details .icon .interest:hover {
+            margin-bottom: 7px; }
+      .menu-list li .menu-info .details .amount {
+        display: inline;
+        font-size: 21px;
+        color: #333; }
+        .menu-list li .menu-info .details .amount strong {
+          font-size: 22px;
+          color: #9f0a0e; }
+        .menu-list li .menu-info .details .amount small {
+          font-size: 15px;
+          color: #666;
+          display: inline-block;
+          margin-left: 15px;
+          text-decoration: line-through; }
+      .menu-list li .menu-info .details .icon {
+        position: absolute;
+        bottom: 25px;
+        right: 25px; }
+        .menu-list li .menu-info .details .icon .cart {
+          margin-right: 5px; }
+          .menu-list li .menu-info .details .icon .cart:hover {
             text-decoration: none; }
-          #main-menu section .container .menu-list li .menu-info .details .icon .interest img {
-            margin-top: 2px; }
-#main-menu .party-menu {
-  background-color: #f2f0e6; }
-#main-menu .single-menu {
-  margin-bottom: 32px; }
+        .menu-list li .menu-info .details .icon .interest:hover {
+          text-decoration: none; }
+        .menu-list li .menu-info .details .icon .interest img {
+          margin-top: 2px; }
 
 /* sub 공통 */
 .sub .sub-visual {
