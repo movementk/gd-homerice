@@ -267,11 +267,11 @@ address, p {
     background-image: url(/assets/images/main/btn_next.png); }
 
 /* introduce */
-.introduce {
+#introduce {
   padding: 70px 0; }
-  .introduce .container {
+  #introduce .container {
     overflow: hidden; }
-    .introduce .container > div {
+    #introduce .container > div {
       position: relative;
       float: left;
       width: 50%;
@@ -281,23 +281,23 @@ address, p {
       -moz-transition: background .5s ease-out;
       -o-transition: background .5s ease-out;
       transition: background .5s ease-out; }
-      .introduce .container > div h3 {
+      #introduce .container > div h3 {
         font-size: 25px;
         font-weight: bold;
         color: #333;
         font-family: 'georgia';
         font-style: italic; }
-      .introduce .container > div hr {
+      #introduce .container > div hr {
         display: inline-block;
         width: 37px;
         margin: 15px 0 20px;
         border-top: 2px solid #333; }
-      .introduce .container > div p {
+      #introduce .container > div p {
         font-size: 15px;
         color: #333;
         line-height: 25px;
         margin-bottom: 30px; }
-      .introduce .container > div a {
+      #introduce .container > div a {
         position: absolute;
         bottom: 47px;
         left: 38px;
@@ -308,16 +308,16 @@ address, p {
         border-radius: 50%;
         text-align: center;
         padding: 6px 0; }
-        .introduce .container > div a span {
+        #introduce .container > div a span {
           display: block; }
-      .introduce .container > div .arrow {
+      #introduce .container > div .arrow {
         position: absolute;
         top: 130px;
         left: 290px;
         width: 17px;
         height: 35px;
         background-repeat: no-repeat; }
-      .introduce .container > div .line {
+      #introduce .container > div .line {
         display: none;
         position: absolute;
         top: 0;
@@ -325,61 +325,91 @@ address, p {
         width: 100%;
         height: 100%;
         border: 5px solid; }
-      .introduce .container > div:hover {
+      #introduce .container > div:hover {
         background-size: 110% auto;
         background-position: 50% 50%; }
-    .introduce .container .store {
+    #introduce .container .store {
       background-image: url(/assets/images/main/menu_bg01.jpg);
       background-repeat: no-repeat;
       background-size: 100% auto;
       background-position: 50% 50%; }
-    .introduce .container .home-party {
+    #introduce .container .home-party {
       padding: 0;
       background-image: url(/assets/images/main/menu_bg02.jpg);
       background-repeat: no-repeat;
       background-size: 100% auto;
       background-position: 50% 50%; }
-      .introduce .container .home-party > .info {
+      #introduce .container .home-party > .info {
         width: 290px;
         height: 100%;
         background-color: #8792b2;
         padding: 40px 0 0 38px; }
-        .introduce .container .home-party > .info h3, .introduce .container .home-party > .info p {
+        #introduce .container .home-party > .info h3, #introduce .container .home-party > .info p {
           color: #fff; }
-        .introduce .container .home-party > .info hr, .introduce .container .home-party > .info a {
+        #introduce .container .home-party > .info hr, #introduce .container .home-party > .info a {
           border-color: #fff; }
-      .introduce .container .home-party .arrow {
+      #introduce .container .home-party .arrow {
         background-image: url(/assets/images/main/menu_arrow01.png); }
-      .introduce .container .home-party .line {
+      #introduce .container .home-party .line {
         border-color: #8792b2; }
-      .introduce .container .home-party:hover .line {
+      #introduce .container .home-party:hover .line {
         display: block; }
-    .introduce .container .single-dish {
+    #introduce .container .single-dish {
       padding: 0;
       background-image: url(/assets/images/main/menu_bg03.jpg);
       background-repeat: no-repeat;
       background-size: 100% auto;
       background-position: 50% 50%; }
-      .introduce .container .single-dish > .info {
+      #introduce .container .single-dish > .info {
         width: 290px;
         height: 100%;
         background-color: #f57272;
         padding: 40px 0 0 38px; }
-        .introduce .container .single-dish > .info h3, .introduce .container .single-dish > .info p {
+        #introduce .container .single-dish > .info h3, #introduce .container .single-dish > .info p {
           color: #fff; }
-        .introduce .container .single-dish > .info hr, .introduce .container .single-dish > .info a {
+        #introduce .container .single-dish > .info hr, #introduce .container .single-dish > .info a {
           border-color: #fff; }
-      .introduce .container .single-dish .arrow {
+      #introduce .container .single-dish .arrow {
         background-image: url(/assets/images/main/menu_arrow02.png); }
-      .introduce .container .single-dish .line {
+      #introduce .container .single-dish .line {
         border-color: #f57272; }
-      .introduce .container .single-dish:hover .line {
+      #introduce .container .single-dish:hover .line {
         display: block; }
-    .introduce .container .homerice {
+    #introduce .container .homerice {
       background-image: url(/assets/images/main/menu_bg04.jpg);
       background-repeat: no-repeat;
       background-size: 100% auto;
       background-position: 50% 50%; }
+
+#main-menu section {
+  padding: 71px 0 38px; }
+  #main-menu section .container h4 {
+    height: 25px;
+    font-size: 18px;
+    color: #222;
+    text-align: center;
+    font-family: 'georgia';
+    font-style: italic;
+    line-height: 25px;
+    background-image: url(/assets/images/sub/menu_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 25px; }
+  #main-menu section .container h3 {
+    font-size: 30px;
+    color: #222;
+    text-align: center;
+    font-weight: bold;
+    margin: 25px 0; }
+  #main-menu section .container > p {
+    font-size: 15px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 50px; }
+#main-menu .party-menu {
+  background-color: #f2f0e6; }
+#main-menu .single-menu {
+  margin-bottom: 32px; }
 
 #footer i {
   font-style: normal;
