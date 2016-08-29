@@ -118,8 +118,6 @@
     padding: 16px 0;
     border-bottom: 0;
     background-color: #f9f9f9; }
-  .table-wrap .table thead .average {
-    color: #9b0a0f; }
   .table-wrap .table tbody td {
     font-size: 13px;
     color: #666;
@@ -130,8 +128,6 @@
   .table-wrap .table tbody td:nth-of-type(2) {
     text-align: left;
     padding-left: 30px; }
-  .table-wrap .table tbody .average {
-    color: #9b0a0f; }
 
 .btn-area p {
   overflow: hidden; }

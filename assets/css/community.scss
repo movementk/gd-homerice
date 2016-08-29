@@ -135,27 +135,77 @@
 
 
 .view {
-    .view-content {
-        .table-wrap {
-            .table {
-                thead {
-                    tr {
-                        .subject {
-                            text-align: left !important;
+    .table-wrap {
+        .table {
+            thead {
+                tr {
+                    th:first-child {
+                        text-align: left;
+                        padding-left: 26px;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        padding: 0;
+                        .concon {
+                            min-height: 400px;
+                            font-size: 13px;
+                            color: #666;
+                            text-align: left;
+                            line-height: 23px;
+                            padding: 38px 26px;
                         }
                     }
                 }
+            }
+        }
+        .btn-area {
+            overflow: hidden;
+            margin-top: 15px;
+            p {
+                float: right;
             }
         }
     }
 }
 
 
-
-
-
-
-
+/* gallery */
+.gallery {
+    .section-content {
+        > ul {
+            > li {
+                margin-bottom: 30px;
+                > a {
+                    display: inline-block;
+                    border: 1px solid #dcdcdc;
+                    &:hover, 
+                    &:focus {
+                        text-decoration: none;
+                        border-color: #9f080d; 
+                    }
+                    figure {
+                        img {
+                            width: 268px;
+                            height: 263px;
+                        }
+                        figcaption {
+                            font-size: 15px;
+                            color: #666666;
+                            text-align: left;
+                            padding: 17px 19px;
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 20px;
+        }
+    }
+} 
 
 
 

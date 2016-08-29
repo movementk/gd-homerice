@@ -88,7 +88,42 @@
   .write .btn-area p .btn-default {
     margin-left: 5px; }
 
-.view .view-content .table-wrap .table thead tr .subject {
-  text-align: left !important; }
+.view .table-wrap .table thead tr th:first-child {
+  text-align: left;
+  padding-left: 26px; }
+.view .table-wrap .table tbody tr td {
+  padding: 0; }
+  .view .table-wrap .table tbody tr td .concon {
+    min-height: 400px;
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+    line-height: 23px;
+    padding: 38px 26px; }
+.view .table-wrap .btn-area {
+  overflow: hidden;
+  margin-top: 15px; }
+  .view .table-wrap .btn-area p {
+    float: right; }
+
+/* gallery */
+.gallery .section-content > ul > li {
+  margin-bottom: 30px; }
+  .gallery .section-content > ul > li > a {
+    display: inline-block;
+    border: 1px solid #dcdcdc; }
+    .gallery .section-content > ul > li > a:hover, .gallery .section-content > ul > li > a:focus {
+      text-decoration: none;
+      border-color: #9f080d; }
+    .gallery .section-content > ul > li > a figure img {
+      width: 268px;
+      height: 263px; }
+    .gallery .section-content > ul > li > a figure figcaption {
+      font-size: 15px;
+      color: #666666;
+      text-align: left;
+      padding: 17px 19px; }
+.gallery .section-content .paging {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=community.css.map */

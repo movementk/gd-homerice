@@ -38,7 +38,15 @@
                             <tr>
                                 <td>10</td>
                                 <td><a href="#">구매후기~~</a></td>
-                                <td class="average">★★★★★</td>
+                                <td>
+                                    <p>
+                                        <img src="/assets/images/community/stra_img.png" alt="평점 1점">
+                                        <img src="/assets/images/community/stra_img.png" alt="평점 2점">
+                                        <img src="/assets/images/community/stra_img.png" alt="평점 3점">
+                                        <img src="/assets/images/community/stra_img.png" alt="평점 4점">
+                                        <img src="/assets/images/community/stra_img.png" alt="평점 5점">
+                                    </p>
+                                </td>
                                 <td>김유림</td>
                                 <td>2016-08-01</td>
                             </tr>
