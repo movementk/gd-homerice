@@ -26,7 +26,7 @@
                         </colgroup>
                         <thead>
                             <tr>
-                                <th class="subject">후기 남깁니다~~~</th>
+                                <th>후기 남깁니다~~~</th>
                                 <th >
                                     <p>
                                         <img src="/assets/images/community/stra_img.png" alt="평점 1점">

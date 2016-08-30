@@ -22,7 +22,7 @@
                             <a href="#">
                                 <figure>
                                     <img src="/assets/images/community/gallery_img01.jpg" alt="겔러리 이미지">
-                                    <figcaption>롯데 MVG 출장 뷔페</figcaption>
+                                    <figcaption>롯데 MVG 출장 뷔페롯데 MVG 출장 뷔페</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -78,7 +78,7 @@
                             <a href="#">
                                 <figure>
                                     <img src="/assets/images/community/gallery_img04.jpg" alt="겔러리 이미지">
-                                    <figcaption>롯데 MVG 출장 뷔페</figcaption>
+                                    <figcaption>롯데 MVG 출장 뷔페롯데</figcaption>
                                 </figure>
                             </a>
                         </li>

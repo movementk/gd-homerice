@@ -85,6 +85,7 @@
                             width: 190px;
                             box-shadow: none;
                             border-radius: 0 !important;
+                            background-color: #fbfbfb;
                         }
                         .email {
                             width: 310px;
@@ -111,10 +112,12 @@
                             width: 85px;
                             height: 62px;
                             margin-left: 5px;
+                            background-color: #fbfbfb;
                         }
                         p {
                             clear: both;
-                            font-size: 13px;
+                            font-size: 11px;
+                            color: #555;
                             margin-top: 5px;
                         }
                     }
@@ -133,7 +136,7 @@
     }
 }
 
-
+/* view */
 .view {
     .table-wrap {
         .table {
@@ -196,6 +199,10 @@
                             color: #666666;
                             text-align: left;
                             padding: 17px 19px;
+                            width: 260px;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
                         }
                     }
                 }

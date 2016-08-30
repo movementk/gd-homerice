@@ -26,7 +26,7 @@
                     <div class="info">
                         <h3>Home Party</h3>
                         <hr>
-                        <p>GD홈라이스의<br> 매장을 소개합니다<br>GD홈라이스의</p>
+                        <p>생일, 모임, 돌잔치, 캠핑 등<br>스페셜 푸드가 필요한날엔<br>홈파티 메뉴로 즐겨보세요</p>
                         <a href="#">
                             <span><img src="/assets/images/main/aroow_w.png" alt="버튼 이미지"></span>
                         </a>
@@ -38,7 +38,7 @@
                     <div class="info">
                         <h3>Single Dish</h3>
                         <hr>
-                        <p>GD홈라이스의<br> 매장을 소개합니다<br>GD홈라이스의</p>
+                        <p>야유회, 운동회, 세미나 등 간편한<br>푸드가 필요한 날엔<br>단품 메뉴로 즐겨보세요</p>
                         <a href="#">
                             <span><img src="/assets/images/main/aroow_w.png" alt="버튼 이미지"></span>
                         </a>
@@ -49,7 +49,7 @@
                 <div class="homerice">
                     <h3>GD Homerice</h3>
                     <hr>
-                    <p>GD홈라이스의<br> 매장을 소개합니다</p>
+                    <p>홈파티 전문브랜드<br>‘GD홈라이스’는 늘 정성을 다해<br>음식을 준비하겠습니다</p>
                     <a href="#">
                         <span><img src="/assets/images/main/aroow_b.png" alt="버튼 이미지"></span>
                     </a>
