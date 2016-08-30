@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
   overflow-y: scroll;
   position: relative;
@@ -17,7 +18,8 @@ dl {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-family: 'Noto Sans KR',sans-serif; }
 
 address, p {
   margin-bottom: 0; }
@@ -38,6 +40,10 @@ address, p {
   font-size: 18px;
   text-decoration: none;
   text-align: center; }
+
+p, small, span, b, strong, li, dt, dd, th, td {
+  font-weight: 300;
+  font-family: 'Noto Sans KR',sans-serif; }
 
 /* #header */
 #header {
@@ -295,6 +301,7 @@ address, p {
       #introduce .container > div p {
         font-size: 15px;
         color: #333;
+        font-weight: 300;
         line-height: 25px;
         margin-bottom: 30px; }
       #introduce .container > div a {
@@ -348,6 +355,8 @@ address, p {
           color: #fff; }
         #introduce .container .home-party > .info hr, #introduce .container .home-party > .info a {
           border-color: #fff; }
+        #introduce .container .home-party > .info p {
+          opacity: .8; }
       #introduce .container .home-party .arrow {
         background-image: url(/assets/images/main/menu_arrow01.png); }
       #introduce .container .home-party .line {
@@ -369,6 +378,8 @@ address, p {
           color: #fff; }
         #introduce .container .single-dish > .info hr, #introduce .container .single-dish > .info a {
           border-color: #fff; }
+        #introduce .container .single-dish > .info p {
+          opacity: .8; }
       #introduce .container .single-dish .arrow {
         background-image: url(/assets/images/main/menu_arrow02.png); }
       #introduce .container .single-dish .line {
@@ -404,6 +415,7 @@ address, p {
   #main-menu section .container > p {
     font-size: 15px;
     color: #999;
+    font-weight: 300;
     text-align: center;
     margin-bottom: 50px; }
 #main-menu .party-menu {
@@ -411,10 +423,13 @@ address, p {
 #main-menu .single-menu {
   margin-bottom: 32px; }
 
+/*
 #footer i {
-  font-style: normal;
-  font-family: 'lato'; }
-
+    font-size: 19px;
+    font-style: normal;
+    font-family: 'lato';
+}
+*/
 #footer .nav-foot {
   padding: 39px 0;
   border-top: 1px solid #ccc;
@@ -447,10 +462,9 @@ address, p {
           float: left;
           font-size: 16px;
           color: #222;
-          font-weight: 600;
           line-height: 25px; }
       #footer .nav-foot .container > div .small-dl {
-        margin-bottom: 6px; }
+        margin-bottom: 8px; }
         #footer .nav-foot .container > div .small-dl dt {
           font-size: 13px;
           color: #666;
@@ -465,11 +479,29 @@ address, p {
         font-size: 13px;
         color: #333; }
         #footer .nav-foot .container > div p i {
-          font-size: 12px; }
+          font-size: 12px;
+          font-style: normal;
+          font-family: 'lato'; }
     #footer .nav-foot .container .coll-center p {
       margin-top: 20px; }
+    #footer .nav-foot .container .coll-center .inline-dl dt {
+      font-size: 16px !important; }
+    #footer .nav-foot .container .coll-center .inline-dl dd {
+      font-weight: 400; }
+      #footer .nav-foot .container .coll-center .inline-dl dd i {
+        font-style: normal;
+        font-size: 20px !important;
+        font-family: 'lato'; }
     #footer .nav-foot .container .bank-info {
       padding-left: 30px; }
+      #footer .nav-foot .container .bank-info .inline-dl dt {
+        font-size: 16px !important; }
+      #footer .nav-foot .container .bank-info .inline-dl dd {
+        font-weight: 400; }
+        #footer .nav-foot .container .bank-info .inline-dl dd i {
+          font-style: normal;
+          font-size: 19px !important;
+          font-family: 'lato'; }
     #footer .nav-foot .container .notice {
       overflow: hidden;
       padding-left: 30px;
@@ -495,7 +527,6 @@ address, p {
             #footer .nav-foot .container .notice .notice-list li a p {
               float: left;
               width: 280px;
-              letter-spacing: -1px;
               overflow: hidden;
               white-space: nowrap;
               text-overflow: ellipsis; }
@@ -588,33 +619,30 @@ address, p {
         #footer .foot-info .container .partyum dl dt {
           display: inline-block;
           font-size: 13px;
-          font-weight: 400;
+          font-weight: 300;
           color: #fff;
-          opacity: .5;
-          letter-spacing: -1px; }
+          opacity: .5; }
         #footer .foot-info .container .partyum dl dt:after {
           content: ":";
           padding-left: 3px; }
         #footer .foot-info .container .partyum dl dd {
           display: inline-block;
           color: #fff;
+          font-weight: 300;
           font-size: 13px;
-          opacity: .5;
-          letter-spacing: -1px; }
+          opacity: .5; }
       #footer .foot-info .container .partyum .admin-info {
         margin-top: 20px;
         margin-bottom: 40px; }
         #footer .foot-info .container .partyum .admin-info li dl dt {
           font-size: 12px;
           color: #fff;
-          opacity: .6;
-          letter-spacing: -1px; }
+          opacity: .6; }
         #footer .foot-info .container .partyum .admin-info li dl dd {
           font-size: 12px;
           opacity: .6; }
           #footer .foot-info .container .partyum .admin-info li dl dd a {
-            color: #fff;
-            letter-spacing: -1px; }
+            color: #fff; }
     #footer .foot-info .container .grace-kelly {
       float: right; }
       #footer .foot-info .container .grace-kelly h4 {
@@ -640,10 +668,9 @@ address, p {
         #footer .foot-info .container .grace-kelly dl dt {
           display: inline-block;
           font-size: 13px;
-          font-weight: 400;
+          font-weight: 300;
           color: #fff;
-          opacity: .5;
-          letter-spacing: -1px; }
+          opacity: .5; }
         #footer .foot-info .container .grace-kelly dl dt:after {
           content: ":";
           padding-left: 3px; }
@@ -652,7 +679,7 @@ address, p {
           color: #fff;
           font-size: 13px;
           opacity: .5;
-          letter-spacing: -1px; }
+          font-weight: 300; }
 #footer .copyright {
   clear: both;
   font-size: 12px;
