@@ -1,23 +1,11 @@
 /* member 공통 */
-.surely:before {
-    content: "*";
-    font-size: 13px;
-    color: #dd3d42;
-    padding-right: 3px;
-}
-.reference {
-    height: 28px;
-    font-size: 11px;
-    line-height: 27px;
-    color: #666;
-}
 .member-info {
     padding: 79px 0 150px;
     h2 {
         font-size: 30px;
         color: #222;
         text-align: center;
-        font-weight: bold;
+        font-weight: 500;
         margin-bottom: 50px;
     }
 }
@@ -31,13 +19,13 @@
             font-size: 15px;
             text-align: center;
             line-height: 42px;
-            letter-spacing: -1px;
             border-top: 1px solid #d6d6d6;
             border-bottom: 1px solid #d6d6d6;
             border-left: 1px solid #d6d6d6;
             a {
                 display: block;
                 color: #666;
+                font-weight: 400;
                 height: 43px;
                 text-decoration: none;
             }
@@ -98,7 +86,6 @@
                         font-size: 16px;
                         width: 372px;
                         height: 50px;
-                        letter-spacing: -1px;
                         line-height: 34px;
                         margin-bottom: 10px;
                     }
@@ -106,7 +93,6 @@
                         width: 180px;
                         height: 50px;
                         line-height: 34px;
-                        letter-spacing: -1px;
                         margin-right: 7px;
                         border-color: #7b7b7b;
                         background-color: #7b7b7b;
@@ -136,7 +122,6 @@
                 p {
                     .btn-gray {
                         width: 372px;
-                        letter-spacing: -1px;
                     }
                 }
             }
@@ -156,8 +141,7 @@
                 h3 {
                     font-size: 16px;
                     color: #222;
-                    font-weight: bold;
-                    letter-spacing: -1px;
+                    font-weight: 400;
                     margin-bottom: 10px;
                 }
                 div {
@@ -166,7 +150,6 @@
                     font-size: 13px;
                     color: #666;
                     line-height: 18px;
-                    letter-spacing: -1px;
                     overflow-y: scroll;
                     padding: 13px 9px;
                     margin-bottom: 15px;
@@ -180,7 +163,6 @@
                     display: inline;
                     font-size: 13px;
                     color: #666;
-                    letter-spacing: -1px;
                 }
             }
             .service-terms {
@@ -198,7 +180,7 @@
                     font-size: 15px;
                     width: 115px;
                     height: 40px;
-                    line-height: 28px;
+                    line-height: 26px;
                     margin-right: 10px;
                 }
                 .btn-default {
@@ -227,7 +209,7 @@
                             padding-left: 25px;
                             vertical-align: top;
                             text-align: left;
-                            letter-spacing: -1px;
+                            font-weight: 400;
                             background-color: #f9f9f9;
                             label {
                                 font-size: 13px;
@@ -262,7 +244,6 @@
                                         font-size: 13px;
                                         padding: 0;
                                         text-align: center;
-                                        letter-spacing: -1px;
                                         line-height: 26px;
 
                                     }
@@ -283,7 +264,7 @@
                                 float: left;
                                 width: 432px;
                                 clear: both;
-                                margin-bottom: 10px;
+                                margin-bottom: 5px;
                             }
                             .form-control:first-child {
                                 width: 140px;
@@ -302,7 +283,7 @@
                                 font-size: 11px;
                                 line-height: 27px;
                                 color: #666;
-                                font-weight: 400;
+                                font-weight: 300;
                                 margin-left: 10px;
                                 margin-bottom: 0;
                             }
@@ -311,6 +292,13 @@
                             .form-control {
                                 width: 81px;
                                 display: inline-block;
+                            }
+                            .reference {
+                                display: inline-block;
+                            }
+                            .check {
+                                margin: -2px 5px 0 10px;
+                                vertical-align: middle;
                             }
                         }
                         .email {
@@ -376,7 +364,6 @@
             height: 27px;
             line-height: 27px;
             font-weight: 300;
-            letter-spacing: -1px;
             color: #222;
 
             background-image: url(/assets/images/member/step03_bg.png);
@@ -412,7 +399,7 @@
             font-size: 22px;
             color: #fff;
             margin: 0 auto;
-            font-weight: bold;
+            font-weight: 400;
             line-height: 48px;
             padding-left: 30px;
             background-color: #4f4f4f;

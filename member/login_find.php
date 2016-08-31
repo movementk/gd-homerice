@@ -21,7 +21,7 @@
                             <div class="captcha">
                                 <div>captcha</div>
                                 <input type="text" class="form-control" id="captcha">
-                                <p>자동등록방지 숫자를 순서대로입력하세요.</p>
+                                <p class="font-dotum">자동등록방지 숫자를 순서대로입력하세요.</p>
                             </div>
                             <div class="btn-area">
                                 <p>

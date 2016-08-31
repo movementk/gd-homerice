@@ -9,96 +9,166 @@
             <div class="container">
                 <h2>장바구니</h2>
                 <div class="table-wrap">
-                    <table class="table table-bordered order-info">
-                        <colgroup>
-                            <col style="width: 54px;">
-                            <col style="width: 70px;">
-                            <col style="width: 496px;">
-                            <col style="width: 80px;">
-                            <col style="width: 130px;">
-                            <col style="width: 130px;">
-                            <col style="width: 130px;">
-                            <col style="width: 80px;">
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th class="check"><input type="checkbox"></th>
-                                <th colspan="2">상품명</th>
-                                <th>수량</th>
-                                <th>상품금액</th>
-                                <th>적립포인트</th>
-                                <th>결제금액</th>
-                                <th>배송비</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="check"><input type="checkbox"></td>
-                                <td>
-                                    <p class="basket-img">
-                                       <a href="#"><img src="/assets/images/mypage/basket_img.gif" alt="주문 상품 이미지"></a>
-                                    </p>
-                                </td>
-                                <td>
-                                    <h3>홈파티 메뉴 A (10인분)</h3>
-
-                                    <div class="btn-area">
-                                        <p>
-                                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#option-modal">
-                                                옵션변경
-                                            </button>
+                    <form>
+                        <table class="table table-bordered order-info">
+                            <colgroup>
+                                <col style="width: 54px;">
+                                <col style="width: 70px;">
+                                <col style="width: 496px;">
+                                <col style="width: 80px;">
+                                <col style="width: 130px;">
+                                <col style="width: 130px;">
+                                <col style="width: 130px;">
+                                <col style="width: 80px;">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th class="check"><input type="checkbox"></th>
+                                    <th colspan="2">상품명</th>
+                                    <th>수량</th>
+                                    <th>상품금액</th>
+                                    <th>적립포인트</th>
+                                    <th>결제금액</th>
+                                    <th>배송비</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="check"><input type="checkbox"></td>
+                                    <td>
+                                        <p class="basket-img">
+                                           <a href="#"><img src="/assets/images/mypage/basket_img.gif" alt="주문 상품 이미지"></a>
                                         </p>
-                                    </div>
+                                    </td>
+                                    <td>
+                                        <h4>홈파티 메뉴 A (10인분)</h4>
 
-                                    <p class="party-menu">홈파티 메뉴A (10인분)  1개 (+0원)</p>
-                                    <dl class="inline-dl">
-                                        <dt>수량추가 </dt>
-                                        <dd>1인분 추가 1개 (+29,900원)</dd>
-                                    </dl>
-                                </td>
-                                <td>2</td>
-                                <td>299,000</td>
-                                <td>2,990</td>
-                                <td class="amount">328,900</td>
-                                <td>착불</td>
-                            </tr>
-                            <tr>
-                                <td class="check"><input type="checkbox"></td>
-                                <td>
-                                    <p class="basket-img">
-                                       <a href="#"><img src="/assets/images/mypage/basket_img.gif" alt="주문 상품 이미지"></a>
-                                    </p>
-                                </td>
-                                <td>
-                                    <h3>홈파티 메뉴 A (10인분)</h3>
+                                        <div class="btn-area">
+                                            <p>
+                                                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#option-modal">
+                                                    옵션변경
+                                                </button>
+                                            </p>
+                                        </div>
 
-                                    <div class="btn-area">
-                                        <p>
-                                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#option-modal">
-                                                옵션변경
-                                            </button>
+                                        <p class="party-menu">홈파티 메뉴A (10인분)  1개 (+0원)</p>
+                                        <dl class="inline-dl">
+                                            <dt>수량추가 </dt>
+                                            <dd>1인분 추가 1개 (+29,900원)</dd>
+                                        </dl>
+                                    </td>
+                                    <td>2</td>
+                                    <td>299,000</td>
+                                    <td>2,990</td>
+                                    <td class="amount">328,900</td>
+                                    <td>착불</td>
+                                </tr>
+                                <tr>
+                                    <td class="check"><input type="checkbox"></td>
+                                    <td>
+                                        <p class="basket-img">
+                                           <a href="#"><img src="/assets/images/mypage/basket_img.gif" alt="주문 상품 이미지"></a>
                                         </p>
-                                    </div>
+                                    </td>
+                                    <td>
+                                        <h4>홈파티 메뉴 A (10인분)</h4>
 
-                                    <p class="party-menu">홈파티 메뉴A (10인분)  1개 (+0원)</p>
-                                    <dl class="inline-dl">
-                                        <dt>수량추가 </dt>
-                                        <dd>1인분 추가 1개 (+29,900원)</dd>
-                                    </dl>
-                                </td>
-                                <td>2</td>
-                                <td>299,000</td>
-                                <td>2,990</td>
-                                <td class="amount">328,900</td>
-                                <td>착불</td>
-                            </tr>
-                            <tr>
-                                <td colspan="8" class="sum">
-                                    <small>총 상품금액</small>328,900
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                        <div class="btn-area">
+                                            <p>
+                                                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#option-modal">
+                                                    옵션변경
+                                                </button>
+                                            </p>
+                                        </div>
+
+                                        <p class="party-menu">홈파티 메뉴A (10인분)  1개 (+0원)</p>
+                                        <dl class="inline-dl">
+                                            <dt>수량추가 </dt>
+                                            <dd>1인분 추가 1개 (+29,900원)</dd>
+                                        </dl>
+                                    </td>
+                                    <td>2</td>
+                                    <td>299,000</td>
+                                    <td>2,990</td>
+                                    <td class="amount">328,900</td>
+                                    <td>착불</td>
+                                </tr>
+                                <tr>
+                                    <td class="check"><input type="checkbox"></td>
+                                    <td>
+                                        <p class="basket-img">
+                                           <a href="#"><img src="/assets/images/mypage/basket_img.gif" alt="주문 상품 이미지"></a>
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <h4>홈파티 메뉴 A (10인분)</h4>
+
+                                        <div class="btn-area">
+                                            <p>
+                                                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#option-modal">
+                                                    옵션변경
+                                                </button>
+                                            </p>
+                                        </div>
+
+                                        <p class="party-menu">홈파티 메뉴A (10인분)  1개 (+0원)</p>
+                                        <dl class="inline-dl">
+                                            <dt>수량추가 </dt>
+                                            <dd>1인분 추가 1개 (+29,900원)</dd>
+                                        </dl>
+                                    </td>
+                                    <td>2</td>
+                                    <td>299,000</td>
+                                    <td>2,990</td>
+                                    <td class="amount">328,900</td>
+                                    <td>착불</td>
+                                </tr>
+                                <tr>
+                                    <td class="check"><input type="checkbox"></td>
+                                    <td>
+                                        <p class="basket-img">
+                                           <a href="#"><img src="/assets/images/mypage/basket_img.gif" alt="주문 상품 이미지"></a>
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <h4>홈파티 메뉴 A (10인분)</h4>
+
+                                        <div class="btn-area">
+                                            <p>
+                                                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#option-modal">
+                                                    옵션변경
+                                                </button>
+                                            </p>
+                                        </div>
+
+                                        <p class="party-menu">홈파티 메뉴A (10인분)  1개 (+0원)</p>
+                                        <dl class="inline-dl">
+                                            <dt>수량추가 </dt>
+                                            <dd>1인분 추가 1개 (+29,900원)</dd>
+                                        </dl>
+                                    </td>
+                                    <td>2</td>
+                                    <td>299,000</td>
+                                    <td>2,990</td>
+                                    <td class="amount">328,900</td>
+                                    <td>착불</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="8" class="sum">
+                                        <small>총 상품금액</small>328,900
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="btn-area">
+                            <p>
+                                <a href="#" class="btn btn-sm btn-default" role="button">쇼핑계속하기</a>
+                                <a href="#" class="btn btn-sm btn-default" role="button">선택삭제</a>
+                                <a href="#" class="btn btn-sm btn-default" role="button">비우기</a>
+                                <a href="#" class="btn btn-sm btn-red" role="button">주문하기</a>
+                            </p>
+                        </div>
+                    </form>
                 </div>
             </div>
 

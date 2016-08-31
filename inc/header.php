@@ -5,16 +5,16 @@
         <h1><a href="index.php"><img src="/assets/images/logo.jpg" alt="회사로고"></a></h1>
         <ul class="member">
             <li>
-                <a href="#">로그인</a>
+                <a href="/member/login.php">로그인</a>
             </li>
             <li>
-                <a href="#">회원가입</a>
+                <a href="/member/join_step01.php">회원가입</a>
             </li>
             <li>
                 <a href="#">마이페이지</a>
             </li>
             <li>
-                <a href="#">장바구니</a>
+                <a href="/mypage/basket.php">장바구니</a>
             </li>
         </ul>
         <div class="search-area">
@@ -37,40 +37,25 @@
         <div class="container">
             <ul>
                 <li>
-                    <a href="#">브랜드스토리</a>
-                    <!--<ul>
-                        <li><a href="#">메뉴1</a></li>
-                    </ul>-->
+                    <a href="/introduction/introduction.php">브랜드스토리</a>
                 </li>
                 <li>
                     <a href="#">매장정보</a>
-                    <!--<ul>
-                        <li><a href="#">메뉴1</a></li>
-                    </ul>-->
                 </li>
                 <li>
-                    <a href="#">파티메뉴</a>
-                    <!--<ul>
-                        <li><a href="#">메뉴1</a></li>
-                    </ul>-->
+                    <a href="/menu/party_menu.php">파티메뉴</a>
                 </li>
                 <li>
-                    <a href="#">단품메뉴</a>
-                    <!--<ul>
-                        <li><a href="#">메뉴1</a></li>
-                    </ul>-->
+                    <a href="/menu/single_menu.php">단품메뉴</a>
+                </li>
+                <li>
+                    <a href="#">출장뷔페</a>
                 </li>
                 <li>
                     <a href="#">이용안내</a>
-                    <!--<ul>
-                        <li><a href="#">메뉴1</a></li>
-                    </ul>-->
                 </li>
                 <li>
-                    <a href="#">커뮤니티</a>
-                    <!--<ul>
-                        <li><a href="#">메뉴1</a></li>
-                    </ul>-->
+                    <a href="/community/review.php">커뮤니티</a>
                 </li>
             </ul>
         </div>

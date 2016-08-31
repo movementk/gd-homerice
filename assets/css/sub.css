@@ -26,6 +26,23 @@
     float: left;
     color: #666; }
 
+.reference {
+  height: 28px;
+  font-size: 11px;
+  line-height: 27px;
+  color: #666;
+  display: inline-block;
+  font-family: '돋움'; }
+
+.font-dotum {
+  font-family: '돋움'; }
+
+.surely:before {
+  content: "*";
+  font-size: 13px;
+  color: #dd3d42;
+  padding-right: 3px; }
+
 /* menu-list */
 .menu-list li {
   margin-bottom: 30px; }

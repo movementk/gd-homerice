@@ -13,7 +13,7 @@
                         <li><a href="#">공지사항</a></li>
                         <li><a href="#">Q&amp;A</a></li>
                         <li><a href="/community/review.php">사용후기</a></li>
-                        <li class="active"><a href="#">갤러리</a></li>
+                        <li class="active"><a href="/community/gallery.php">갤러리</a></li>
                     </ul>
                 </div>
                 <div class="section-content">

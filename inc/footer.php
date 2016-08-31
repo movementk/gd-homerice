@@ -77,8 +77,8 @@
     <div class="policy">
         <div class="container">
             <ul class="policy-list">
-                <li><a href="#">이용약관</a></li>
-                <li><a href="#">개인정보보호정책</a></li>
+                <li><a href="/policy/service_terms.php">이용약관</a></li>
+                <li><a href="/policy/privacy_statsment.php">개인정보보호정책</a></li>
                 <li><a href="#">이용안내</a></li>
                 <li><a href="#">매장정보</a></li>
                 <li><a href="#">공지사항</a></li>

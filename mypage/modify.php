@@ -1,23 +1,19 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link href="/assets/css/member.css" rel="stylesheet">
+<link href="/assets/css/mypage.css" rel="stylesheet">
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main class="sub community" tabindex="-1">
+    <main class="sub" tabindex="-1">
         <!-- sub content -->
-        <section class="member-info step-2">
+        <section class="mypage modify">
             <div class="container">
-                <h2>회원가입</h2>
-                <ul class="step-list">
-                    <li>
-                        <a href="#">STEP1 약관동의</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">STEP2 약관동의</a>
-                    </li>
-                    <li>
-                        <a href="#">STEP3 약관동의</a>
-                    </li>
+                <h2>마이페이지</h2>
+                <ul class="mypage-menu">
+                    <li><a href="#">주문/배송관리</a></li>
+                    <li><a href="#">관심상품</a></li>
+                    <li><a href="#">포인트 관리</a></li>
+                    <li><a href="#">쿠폰관리</a></li>
+                    <li class="active"><a href="#">회원정보수정</a></li>
                 </ul>
                 <div class="section-content">
                     <form>
@@ -30,16 +26,8 @@
                                 </colgroup>
                                 <tbody>
                                     <tr>
-                                        <th class="surely"><label for="user-id">아이디</label></th>
-                                        <td class="user-id">
-                                            <input type="text" class="form-control" id="user-id">
-                                            <div class="btn-area">
-                                                <p>
-                                                    <a href="#" class="btn btn-default" role="button">중복확인</a>
-                                                </p>
-                                            </div>
-                                            <p class="reference">영문, 숫자, _ 4~16자</p>
-                                        </td>
+                                        <th class="surely">아이디</th>
+                                        <td>yej555</td>
                                     </tr>
                                     <tr>
                                         <th class="surely"><label for="user-pw">비밀번호</label></th>
@@ -54,10 +42,8 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th class="surely"><label for="user-name">이름</label></th>
-                                        <td>
-                                            <input type="text" class="form-control" id="user-name">
-                                        </td>
+                                        <th class="surely">이름</th>
+                                        <td>김유림</td>
                                     </tr>
                                     <tr>
                                         <th class="surely"><label for="addr">주소</label></th>
@@ -111,7 +97,7 @@
                                         <td class="captcha">
                                             <div>captcha</div>
                                             <input type="text" class="form-control" id="captcha">
-                                            <p  class="font-dotum">자동등록방지 숫자를 순서대로입력하세요.</p>
+                                            <p class="font-dotum">자동등록방지 숫자를 순서대로입력하세요.</p>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -119,8 +105,9 @@
                         </div>
                         <div class="btn-area">
                             <p>
-                                <a href="#" class="btn btn-sm btn-red" role="button">회원가입</a>
+                                <a href="#" class="btn btn-sm btn-red" role="button">정보수정</a>
                                 <a href="#" class="btn btn-sm btn-default" role="button">취소</a>
+                                <a href="#" class="btn btn-sm btn-gray" role="button">회원탈퇴</a>
                             </p>
                         </div>
                     </form>

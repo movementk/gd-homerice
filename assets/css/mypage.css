@@ -1,40 +1,44 @@
 @charset "UTF-8";
 /* mypage 공통 */
+label {
+  font-weight: 400; }
+
 .mypage .container {
   padding: 79px 0 150px; }
   .mypage .container h2 {
     font-size: 30px;
     color: #222;
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
     margin-bottom: 50px; }
+  .mypage .container .btn-position {
+    text-align: center; }
 
-.order-info thead tr th {
-  font-weight: bold !important;
-  padding: 15px 0 !important;
-  letter-spacing: -1px; }
-.order-info thead tr th:first-child {
+.mypage .table.order-info thead tr th {
+  font-weight: 500 !important;
+  padding: 15px 0 !important; }
+.mypage .table.order-info thead tr th:first-child {
   border-right: 0; }
-.order-info thead tr th:nth-of-type(2) {
+.mypage .table.order-info thead tr th:nth-of-type(2) {
   border-left: 0; }
-.order-info tbody tr td {
-  vertical-align: middle;
-  letter-spacing: -1px; }
-  .order-info tbody tr td p img {
+.mypage .table.order-info tbody tr td {
+  vertical-align: middle; }
+  .mypage .table.order-info tbody tr td p img {
     width: 70px;
     height: 70px; }
-  .order-info tbody tr td h3 {
+  .mypage .table.order-info tbody tr td h4 {
     float: left;
     height: 28px;
     font-size: 13px;
-    color: #333;
+    color: #666;
+    font-weight: 400;
     line-height: 28px;
-    letter-spacing: -1px; }
-  .order-info tbody tr td .btn-area {
+    letter-spacing: -.5px; }
+  .mypage .table.order-info tbody tr td .btn-area {
     float: left;
     margin-left: 14px;
     margin-bottom: 10px; }
-    .order-info tbody tr td .btn-area .btn {
+    .mypage .table.order-info tbody tr td .btn-area .btn {
       width: 71px;
       height: 28px;
       font-size: 13px;
@@ -45,21 +49,9 @@
       box-shadow: none;
       border: 1px solid #d4d4d4;
       background-color: #fbfbfb; }
-      .order-info tbody tr td .btn-area .btn:hover, .order-info tbody tr td .btn-area .btn:focus {
+      .mypage .table.order-info tbody tr td .btn-area .btn:hover, .mypage .table.order-info tbody tr td .btn-area .btn:focus {
         opacity: .8; }
-    .order-info tbody tr td .btn-area .dropdown-menu {
-      top: 35px;
-      width: 420px;
-      height: 302px;
-      padding: 19px 20px;
-      border-radius: 0;
-      border: 1px solid #d4d4d4; }
-      .order-info tbody tr td .btn-area .dropdown-menu h4 {
-        font-size: 15px;
-        color: #222;
-        font-weight: bold;
-        margin-bottom: 10px; }
-  .order-info tbody tr td .party-menu {
+  .mypage .table.order-info tbody tr td .party-menu {
     clear: both;
     width: 450px;
     height: 27px;
@@ -70,48 +62,48 @@
     padding-left: 6px;
     margin-bottom: 1px;
     background-color: #f9f9f9; }
-  .order-info tbody tr td .inline-dl {
+  .mypage .table.order-info tbody tr td .inline-dl {
     width: 450px;
     height: 27px;
     padding-left: 6px;
     background-color: #f9f9f9; }
-    .order-info tbody tr td .inline-dl dt {
+    .mypage .table.order-info tbody tr td .inline-dl dt {
       font-size: 13px;
       color: #666;
       letter-spacing: .5px;
       line-height: 27px; }
-    .order-info tbody tr td .inline-dl dt:after {
+    .mypage .table.order-info tbody tr td .inline-dl dt:after {
       content: ":";
       padding-right: 2px; }
-    .order-info tbody tr td .inline-dl dd {
+    .mypage .table.order-info tbody tr td .inline-dl dd {
       font-size: 13px;
       color: #666;
       letter-spacing: .5px;
       line-height: 27px; }
-.order-info tbody tr .sum {
+.mypage .table.order-info tbody tr .sum {
   height: 70px;
   font-size: 22px;
   color: #9f0a0e;
-  font-weight: bold;
+  font-weight: 500;
   text-align: right;
   padding-right: 27px;
   background-color: #f9f9f9; }
-  .order-info tbody tr .sum small {
+  .mypage .table.order-info tbody tr .sum small {
     display: inline-block;
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 500;
     color: #666;
     margin-right: 14px; }
-.order-info tbody tr .amount {
+.mypage .table.order-info tbody tr .amount {
   color: #9f080d; }
-.order-info tbody tr:first-child td:first-child {
+.mypage .table.order-info tbody tr td:first-child {
   border-right: 0; }
-.order-info tbody tr:first-child td:nth-of-type(2) {
+.mypage .table.order-info tbody tr td:nth-of-type(2) {
   border-right: 0;
   border-left: 0;
-  padding-left: 0;
-  padding-right: 0; }
-.order-info tbody tr:first-child td:nth-of-type(3) {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+.mypage .table.order-info tbody tr td:nth-of-type(3) {
   text-align: left;
   vertical-align: top;
   border-left: 0;
@@ -120,6 +112,642 @@
 /* basket */
 .basket {
   min-height: 800px; }
+  .basket .table-wrap .table {
+    margin-bottom: 20px; }
+  .basket .table-wrap .btn-area {
+    overflow: hidden; }
+    .basket .table-wrap .btn-area p {
+      float: right; }
+      .basket .table-wrap .btn-area p .btn {
+        margin-left: 6px; }
+      .basket .table-wrap .btn-area p .btn-default {
+        background-color: #fff; }
+
+/* payment */
+.payment .container .table-wrap .table.order-info {
+  margin-bottom: 20px; }
+.payment .container .table-wrap .btn-area {
+  overflow: hidden; }
+  .payment .container .table-wrap .btn-area p {
+    float: right; }
+    .payment .container .table-wrap .btn-area p .btn {
+      margin-left: 6px; }
+    .payment .container .table-wrap .btn-area p .btn-default {
+      background-color: #fff; }
+.payment article {
+  margin-top: 50px; }
+  .payment article h3 {
+    font-size: 20px;
+    color: #222;
+    font-weight: 400;
+    margin-bottom: 13px; }
+
+.an-orderer {
+  margin-top: 60px; }
+  .an-orderer .table-wrap .table tbody tr th {
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    text-align: left;
+    padding: 15px 0 15px 25px;
+    vertical-align: top;
+    letter-spacing: -1px;
+    background-color: #f9f9f9; }
+    .an-orderer .table-wrap .table tbody tr th label {
+      font-size: 13px;
+      color: #666;
+      font-weight: 400;
+      margin: 0; }
+  .an-orderer .table-wrap .table tbody tr td {
+    font-size: 11px;
+    color: #666;
+    text-align: left;
+    padding: 10px; }
+    .an-orderer .table-wrap .table tbody tr td .form-control {
+      width: 140px;
+      height: 28px;
+      box-shadow: none;
+      border-radius: 0;
+      border: 1px solid #ebebeb;
+      background-color: #fbfbfb; }
+      .an-orderer .table-wrap .table tbody tr td .form-control:focus {
+        border-color: #9f080d; }
+    .an-orderer .table-wrap .table tbody tr td .btn-area {
+      float: left;
+      margin-right: 10px; }
+      .an-orderer .table-wrap .table tbody tr td .btn-area p .btn-default {
+        width: 71px;
+        height: 28px;
+        font-size: 13px;
+        padding: 0;
+        text-align: center;
+        letter-spacing: -1px;
+        line-height: 26px;
+        background-color: #fbfbfb; }
+  .an-orderer .table-wrap .table tbody tr .user-id {
+    overflow: hidden;
+    vertical-align: middle; }
+    .an-orderer .table-wrap .table tbody tr .user-id .form-control {
+      float: left;
+      margin-right: 10px; }
+  .an-orderer .table-wrap .table tbody tr .address {
+    overflow: hidden; }
+    .an-orderer .table-wrap .table tbody tr .address .form-control {
+      float: left;
+      width: 432px;
+      clear: both;
+      margin-bottom: 5px; }
+    .an-orderer .table-wrap .table tbody tr .address .form-control:first-child {
+      width: 140px; }
+    .an-orderer .table-wrap .table tbody tr .address .form-control:nth-of-type(3) {
+      margin-bottom: 0; }
+    .an-orderer .table-wrap .table tbody tr .address .btn-area {
+      float: left;
+      display: block; }
+    .an-orderer .table-wrap .table tbody tr .address label {
+      float: left;
+      height: 28px;
+      font-size: 11px;
+      line-height: 27px;
+      color: #666;
+      font-weight: 300;
+      margin-left: 10px;
+      margin-bottom: 0; }
+  .an-orderer .table-wrap .table tbody tr .call .form-control {
+    width: 81px;
+    display: inline-block; }
+  .an-orderer .table-wrap .table tbody tr .email .form-control {
+    width: 176px;
+    display: inline-block; }
+  .an-orderer .table-wrap .table tbody tr .email .reference {
+    display: inline-block; }
+  .an-orderer .table-wrap .table tbody tr .email .check {
+    margin: -2px 5px 0 10px;
+    vertical-align: middle; }
+  .an-orderer .table-wrap .table tbody tr .delivery .form-control {
+    width: 81px;
+    font-size: 11px;
+    letter-spacing: -.5px;
+    padding: 0 10px !important;
+    display: inline-block;
+    margin-right: 5px; }
+  .an-orderer .table-wrap .table tbody tr .place {
+    vertical-align: middle; }
+    .an-orderer .table-wrap .table tbody tr .place input {
+      margin: 0;
+      margin-top: -2px;
+      vertical-align: middle; }
+    .an-orderer .table-wrap .table tbody tr .place label {
+      font-size: 13px;
+      color: #666;
+      font-weight: 300;
+      margin-bottom: 0;
+      margin-left: 7px;
+      margin-right: 17px; }
+
+.recipient .table-wrap .table tbody tr th {
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+  text-align: left;
+  padding: 15px 0 15px 25px;
+  vertical-align: top;
+  letter-spacing: -1px;
+  background-color: #f9f9f9; }
+  .recipient .table-wrap .table tbody tr th label {
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    margin: 0; }
+.recipient .table-wrap .table tbody tr td {
+  font-size: 11px;
+  color: #666;
+  text-align: left;
+  padding: 10px; }
+  .recipient .table-wrap .table tbody tr td .form-control {
+    width: 140px;
+    height: 28px;
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #ebebeb;
+    background-color: #fbfbfb; }
+    .recipient .table-wrap .table tbody tr td .form-control:focus {
+      border-color: #9f080d; }
+  .recipient .table-wrap .table tbody tr td .btn-area {
+    float: left; }
+    .recipient .table-wrap .table tbody tr td .btn-area p .btn-default {
+      width: 71px;
+      height: 28px;
+      font-size: 13px;
+      padding: 0;
+      text-align: center;
+      letter-spacing: -1px;
+      line-height: 26px;
+      background-color: #fbfbfb; }
+  .recipient .table-wrap .table tbody tr td textarea {
+    width: 1048px;
+    height: 78px;
+    padding: 6px;
+    border: 1px solid #ebebeb;
+    background-color: #fbfbfb;
+    box-shadow: none; }
+    .recipient .table-wrap .table tbody tr td textarea:focus {
+      box-shadow: none;
+      border-color: #9f080d; }
+.recipient .table-wrap .table tbody tr .place {
+  vertical-align: middle;
+  overflow: hidden; }
+  .recipient .table-wrap .table tbody tr .place input {
+    float: left;
+    margin: 0;
+    margin-top: 8px; }
+  .recipient .table-wrap .table tbody tr .place label {
+    float: left;
+    font-size: 13px;
+    color: #666;
+    font-weight: 300;
+    margin: 5px 17px 0 7px; }
+  .recipient .table-wrap .table tbody tr .place label:nth-of-type(2) {
+    margin-right: 4px; }
+.recipient .table-wrap .table tbody tr .user-place {
+  overflow: hidden; }
+  .recipient .table-wrap .table tbody tr .user-place input {
+    float: left; }
+  .recipient .table-wrap .table tbody tr .user-place .check {
+    margin: 8px 8px 0 10px; }
+.recipient .table-wrap .table tbody tr .address {
+  overflow: hidden; }
+  .recipient .table-wrap .table tbody tr .address .form-control {
+    float: left;
+    width: 432px;
+    clear: both;
+    margin-bottom: 5px; }
+  .recipient .table-wrap .table tbody tr .address .form-control:first-child {
+    width: 140px; }
+  .recipient .table-wrap .table tbody tr .address .form-control:nth-of-type(3) {
+    margin-bottom: 0; }
+  .recipient .table-wrap .table tbody tr .address .btn-area {
+    float: left;
+    display: block; }
+  .recipient .table-wrap .table tbody tr .address label {
+    float: left;
+    height: 28px;
+    font-size: 11px;
+    line-height: 27px;
+    color: #666;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-bottom: 0; }
+.recipient .table-wrap .table tbody tr .call .form-control {
+  width: 81px;
+  display: inline-block; }
+.recipient .table-wrap .table tbody tr .email .form-control {
+  width: 176px;
+  display: inline-block; }
+.recipient .table-wrap .table tbody tr .email .reference {
+  display: inline-block; }
+.recipient .table-wrap .table tbody tr .email .check {
+  margin: -2px 5px 0 10px;
+  vertical-align: middle; }
+
+.point-coupon .table-wrap .table tbody tr th {
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+  text-align: left;
+  padding: 15px 0 15px 25px;
+  vertical-align: top;
+  letter-spacing: -1px;
+  background-color: #f9f9f9; }
+  .point-coupon .table-wrap .table tbody tr th label {
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    margin: 0; }
+.point-coupon .table-wrap .table tbody tr td {
+  font-size: 13px;
+  color: #666;
+  text-align: left;
+  padding: 10px; }
+  .point-coupon .table-wrap .table tbody tr td .form-control {
+    display: inline-block;
+    width: 80px;
+    height: 28px;
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #ebebeb;
+    background-color: #fbfbfb; }
+    .point-coupon .table-wrap .table tbody tr td .form-control:focus {
+      border-color: #9f080d; }
+  .point-coupon .table-wrap .table tbody tr td .btn-area {
+    float: left;
+    margin: 0 12px 0 20px; }
+    .point-coupon .table-wrap .table tbody tr td .btn-area p .btn-default {
+      width: 71px;
+      height: 28px;
+      font-size: 13px;
+      padding: 0;
+      text-align: center;
+      letter-spacing: -1px;
+      line-height: 26px;
+      background-color: #fbfbfb; }
+  .point-coupon .table-wrap .table tbody tr td select {
+    width: 200px;
+    height: 28px;
+    border: 1px solid #ebebeb;
+    margin: 0 10px 0 20px; }
+    .point-coupon .table-wrap .table tbody tr td select:focus {
+      border-color: #9f080d; }
+  .point-coupon .table-wrap .table tbody tr td .reference {
+    font-size: 13px; }
+    .point-coupon .table-wrap .table tbody tr td .reference i {
+      font-style: normal;
+      color: #9f0a0e; }
+.point-coupon .table-wrap .table tbody tr .point {
+  overflow: hidden; }
+  .point-coupon .table-wrap .table tbody tr .point .form-control {
+    float: left; }
+  .point-coupon .table-wrap .table tbody tr .point .reference {
+    margin-left: 3px;
+    float: left; }
+
+.payment-info {
+  margin-bottom: 50px; }
+  .payment-info .table-wrap .table tbody tr th {
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    text-align: left;
+    padding: 15px 0 15px 25px;
+    vertical-align: top;
+    letter-spacing: -1px;
+    background-color: #f9f9f9; }
+  .payment-info .table-wrap .table tbody tr td {
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+    padding: 15px; }
+    .payment-info .table-wrap .table tbody tr td .form-control {
+      display: inline-block;
+      width: 80px;
+      height: 28px;
+      box-shadow: none;
+      border-radius: 0;
+      border: 1px solid #ebebeb;
+      background-color: #fbfbfb; }
+      .payment-info .table-wrap .table tbody tr td .form-control:focus {
+        border-color: #9f080d; }
+    .payment-info .table-wrap .table tbody tr td label {
+      font-size: 13px;
+      color: #666;
+      font-weight: 300;
+      margin: 0 25px 0 3px; }
+    .payment-info .table-wrap .table tbody tr td .check {
+      vertical-align: middle;
+      margin-top: -2px; }
+    .payment-info .table-wrap .table tbody tr td .bank-name {
+      padding: 15px 0; }
+      .payment-info .table-wrap .table tbody tr td .bank-name label {
+        margin-right: 14px; }
+      .payment-info .table-wrap .table tbody tr td .bank-name .form-control {
+        width: 136px; }
+  .payment-info .table-wrap .table tbody tr .total {
+    font-size: 22px;
+    color: #9f0a0e;
+    font-weight: 500;
+    padding: 10px 0 10px 15px; }
+    .payment-info .table-wrap .table tbody tr .total small {
+      font-size: 21px;
+      color: #333; }
+
+/* sucess */
+.sucess .container {
+  text-align: center;
+  padding-bottom: 300px; }
+  .sucess .container .sucess-txt {
+    margin-top: 38px;
+    font-size: 23px;
+    height: 27px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: -1px;
+    text-align: center;
+    background-image: url(/assets/images/mypage/sucess_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0; }
+  .sucess .container .inline-dl {
+    display: inline-block;
+    margin: 22px 0 50px 0; }
+    .sucess .container .inline-dl dt {
+      font-size: 18px;
+      font-weight: 300;
+      color: #222; }
+    .sucess .container .inline-dl dt:after {
+      content: ":";
+      padding: 0 3px; }
+    .sucess .container .inline-dl dd {
+      font-size: 18px;
+      color: #9f080d; }
+
+/* order-view */
+.order-view article {
+  margin-bottom: 50px; }
+  .order-view article h3 {
+    font-size: 20px;
+    color: #222;
+    font-weight: 400;
+    margin-bottom: 13px; }
+  .order-view article .order-table tbody tr th {
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    padding: 16px 0 16px 25px;
+    background-color: #f9f9f9; }
+  .order-view article .order-table tbody tr td {
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 11px; }
+.order-view .order-infomation .order-info thead tr th:first-child {
+  border-right: 1px solid #ddd; }
+.order-view .order-infomation .order-info tbody tr td:nth-of-type(1) {
+  padding-left: 23px;
+  padding-right: 23px; }
+.order-view .order-infomation .order-info tbody tr td:nth-of-type(3) {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0;
+  border-left: 1px solid #ddd; }
+.order-view .btn-area {
+  margin-top: 30px;
+  overflow: hidden; }
+  .order-view .btn-area p {
+    float: right; }
+    .order-view .btn-area p .btn-default {
+      margin-right: 6px; }
+
+/* order-list */
+/* 메뉴리스트 공통 */
+.mypage-menu {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  overflow: hidden; }
+  .mypage-menu li {
+    float: left;
+    width: 120px;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6; }
+    .mypage-menu li a {
+      height: 45px;
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 12px 0; }
+      .mypage-menu li a:hover {
+        text-decoration: none; }
+  .mypage-menu li:last-child {
+    border-right: 1px solid #d6d6d6; }
+  .mypage-menu .active {
+    border-color: #222;
+    background-color: #222; }
+    .mypage-menu .active a {
+      color: #fff; }
+
+.order-list .table-wrap {
+  margin-bottom: 40px; }
+  .order-list .table-wrap .table thead tr th {
+    padding: 15px 0;
+    text-align: center; }
+  .order-list .table-wrap .table tbody tr td {
+    text-align: center;
+    padding: 15px 0; }
+  .order-list .table-wrap .table tbody tr td:nth-of-type(3) {
+    text-align: left !important;
+    padding-left: 20px; }
+
+/* product */
+.product .container {
+  padding-bottom: 400px; }
+  .product .container .table-wrap {
+    margin-bottom: 20px; }
+    .product .container .table-wrap thead tr th:nth-of-type(1) {
+      border-right: 0; }
+    .product .container .table-wrap thead tr th:nth-of-type(2) {
+      text-align: left;
+      padding-left: 233px;
+      border-left: 0; }
+    .product .container .table-wrap tbody tr td {
+      vertical-align: middle; }
+      .product .container .table-wrap tbody tr td p img {
+        width: 70px;
+        height: 70px; }
+    .product .container .table-wrap tbody tr td:nth-of-type(1) {
+      border-right: 0; }
+    .product .container .table-wrap tbody tr td:nth-of-type(2) {
+      padding: 17px 0;
+      text-align: center;
+      border-left: 0;
+      border-right: 0; }
+    .product .container .table-wrap tbody tr td:nth-of-type(3) {
+      border-left: 0;
+      padding-left: 15px;
+      text-align: left; }
+  .product .container .btn-area {
+    overflow: hidden; }
+    .product .container .btn-area p {
+      float: right; }
+      .product .container .btn-area p .btn {
+        margin-left: 6px; }
+
+/* my-point */
+.my-point .point-txt {
+  font-size: 20px;
+  font-weight: 400;
+  color: #222;
+  text-align: center;
+  margin-bottom: 20px; }
+  .my-point .point-txt i {
+    font-style: normal;
+    color: #9f0a0e; }
+.my-point .table-wrap {
+  margin-bottom: 40px; }
+  .my-point .table-wrap .table tbody tr td {
+    text-align: center; }
+  .my-point .table-wrap .table tbody tr td:nth-of-type(2) {
+    padding-left: 0; }
+
+/* my-coupon */
+.my-coupon .container {
+  padding-bottom: 400px; }
+  .my-coupon .container .table-wrap {
+    margin-bottom: 40px; }
+    .my-coupon .container .table-wrap .table tbody tr td {
+      text-align: center; }
+    .my-coupon .container .table-wrap .table tbody tr td:nth-of-type(2) {
+      padding-left: 0; }
+
+/* modify */
+.modify .section-content .surely {
+  font-size: 13px;
+  color: #666; }
+.modify .section-content .table-wrap {
+  margin-top: 10px;
+  margin-bottom: 45px; }
+  .modify .section-content .table-wrap .table tbody tr th {
+    padding: 15px 0 15px 25px;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: -1px;
+    background-color: #f9f9f9; }
+    .modify .section-content .table-wrap .table tbody tr th label {
+      font-size: 13px;
+      color: #666;
+      font-weight: 400;
+      margin: 0; }
+  .modify .section-content .table-wrap .table tbody tr td {
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px; }
+    .modify .section-content .table-wrap .table tbody tr td .form-control {
+      width: 140px;
+      height: 28px;
+      box-shadow: none;
+      border-radius: 0;
+      border: 1px solid #ebebeb;
+      background-color: #fbfbfb; }
+      .modify .section-content .table-wrap .table tbody tr td .form-control:focus {
+        border-color: #9f080d; }
+    .modify .section-content .table-wrap .table tbody tr td .btn-area {
+      float: left;
+      margin-right: 10px; }
+      .modify .section-content .table-wrap .table tbody tr td .btn-area p .btn-default {
+        width: 71px;
+        height: 28px;
+        font-size: 13px;
+        padding: 0;
+        text-align: center;
+        letter-spacing: -1px;
+        line-height: 26px; }
+  .modify .section-content .table-wrap .table tbody tr .user-id {
+    overflow: hidden;
+    vertical-align: middle; }
+    .modify .section-content .table-wrap .table tbody tr .user-id .form-control {
+      float: left;
+      margin-right: 10px; }
+  .modify .section-content .table-wrap .table tbody tr .address {
+    overflow: hidden; }
+    .modify .section-content .table-wrap .table tbody tr .address .form-control {
+      float: left;
+      width: 432px;
+      clear: both;
+      margin-bottom: 5px; }
+    .modify .section-content .table-wrap .table tbody tr .address .form-control:first-child {
+      width: 140px; }
+    .modify .section-content .table-wrap .table tbody tr .address .form-control:nth-of-type(3) {
+      margin-bottom: 0; }
+    .modify .section-content .table-wrap .table tbody tr .address .btn-area {
+      float: left;
+      display: block;
+      margin-left: 10px; }
+    .modify .section-content .table-wrap .table tbody tr .address label {
+      float: left;
+      height: 28px;
+      font-size: 11px;
+      line-height: 27px;
+      color: #666;
+      font-weight: 300;
+      margin-left: 10px;
+      margin-bottom: 0; }
+  .modify .section-content .table-wrap .table tbody tr .call .form-control {
+    width: 81px;
+    display: inline-block; }
+  .modify .section-content .table-wrap .table tbody tr .call .reference {
+    display: inline-block; }
+  .modify .section-content .table-wrap .table tbody tr .call .check {
+    margin: -2px 5px 0 10px;
+    vertical-align: middle; }
+  .modify .section-content .table-wrap .table tbody tr .email .form-control {
+    width: 176px;
+    display: inline-block; }
+  .modify .section-content .table-wrap .table tbody tr .email .reference {
+    display: inline-block; }
+  .modify .section-content .table-wrap .table tbody tr .email .check {
+    margin: -2px 5px 0 10px;
+    vertical-align: middle; }
+  .modify .section-content .table-wrap .table tbody tr .captcha {
+    overflow: hidden; }
+    .modify .section-content .table-wrap .table tbody tr .captcha div {
+      float: left;
+      display: inline-block;
+      width: 192px;
+      height: 62px;
+      margin-bottom: 5px;
+      border: 1px solid #e9e9e9; }
+    .modify .section-content .table-wrap .table tbody tr .captcha .form-control {
+      float: left;
+      width: 85px;
+      height: 62px;
+      margin-left: 5px;
+      background-color: #fbfbfb; }
+    .modify .section-content .table-wrap .table tbody tr .captcha p {
+      clear: both;
+      font-size: 11px;
+      color: #555;
+      margin-top: 5px; }
+.modify .section-content .btn-area p {
+  text-align: center; }
+  .modify .section-content .btn-area p .btn {
+    margin-right: 6px; }
+  .modify .section-content .btn-area p .btn-gray {
+    color: #fff !important;
+    margin-right: 0; }
 
 /* modal */
 /*
