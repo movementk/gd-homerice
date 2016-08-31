@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 공통 */
+.policy-info .container {
+  padding-top: 79px;
+  padding-bottom: 80px; }
+  .policy-info .container h2 {
+    font-size: 30px;
+    color: #222;
+    font-weight: 500;
+    text-align: center; }
+  .policy-info .container .section-content {
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+    margin-top: 50px; }
+
+/*# sourceMappingURL=policy.css.map */

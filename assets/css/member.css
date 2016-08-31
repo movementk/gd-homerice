@@ -1,24 +1,12 @@
 @charset "UTF-8";
 /* member 공통 */
-.surely:before {
-  content: "*";
-  font-size: 13px;
-  color: #dd3d42;
-  padding-right: 3px; }
-
-.reference {
-  height: 28px;
-  font-size: 11px;
-  line-height: 27px;
-  color: #666; }
-
 .member-info {
   padding: 79px 0 150px; }
   .member-info h2 {
     font-size: 30px;
     color: #222;
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 50px; }
 
 .member-info .step-list {
@@ -30,13 +18,13 @@
     font-size: 15px;
     text-align: center;
     line-height: 42px;
-    letter-spacing: -1px;
     border-top: 1px solid #d6d6d6;
     border-bottom: 1px solid #d6d6d6;
     border-left: 1px solid #d6d6d6; }
     .member-info .step-list li a {
       display: block;
       color: #666;
+      font-weight: 400;
       height: 43px;
       text-decoration: none; }
   .member-info .step-list li:last-child {
@@ -79,14 +67,12 @@
     font-size: 16px;
     width: 372px;
     height: 50px;
-    letter-spacing: -1px;
     line-height: 34px;
     margin-bottom: 10px; }
   .login .container > div .btn-area p .btn-gray {
     width: 180px;
     height: 50px;
     line-height: 34px;
-    letter-spacing: -1px;
     margin-right: 7px;
     border-color: #7b7b7b;
     background-color: #7b7b7b; }
@@ -104,8 +90,7 @@
   letter-spacing: -1.6px;
   margin-bottom: 15px; }
 .login .container .nonmember-search .btn-area p .btn-gray {
-  width: 372px;
-  letter-spacing: -1px; }
+  width: 372px; }
 
 /* step-1 */
 .step-1 .section-content .terms {
@@ -117,8 +102,7 @@
     .step-1 .section-content .terms > div h3 {
       font-size: 16px;
       color: #222;
-      font-weight: bold;
-      letter-spacing: -1px;
+      font-weight: 400;
       margin-bottom: 10px; }
     .step-1 .section-content .terms > div div {
       width: 570px;
@@ -126,7 +110,6 @@
       font-size: 13px;
       color: #666;
       line-height: 18px;
-      letter-spacing: -1px;
       overflow-y: scroll;
       padding: 13px 9px;
       margin-bottom: 15px;
@@ -137,8 +120,7 @@
     .step-1 .section-content .terms > div p {
       display: inline;
       font-size: 13px;
-      color: #666;
-      letter-spacing: -1px; }
+      color: #666; }
   .step-1 .section-content .terms .privacy {
     margin: 0; }
 .step-1 .section-content .btn-area {
@@ -148,7 +130,7 @@
     font-size: 15px;
     width: 115px;
     height: 40px;
-    line-height: 28px;
+    line-height: 26px;
     margin-right: 10px; }
   .step-1 .section-content .btn-area p .btn-default {
     margin: 0; }
@@ -165,7 +147,7 @@
     padding-left: 25px;
     vertical-align: top;
     text-align: left;
-    letter-spacing: -1px;
+    font-weight: 400;
     background-color: #f9f9f9; }
     .step-2 .section-content .table-wrap .table tbody tr th label {
       font-size: 13px;
@@ -195,7 +177,6 @@
         font-size: 13px;
         padding: 0;
         text-align: center;
-        letter-spacing: -1px;
         line-height: 26px; }
   .step-2 .section-content .table-wrap .table tbody tr .user-id {
     overflow: hidden;
@@ -209,7 +190,7 @@
       float: left;
       width: 432px;
       clear: both;
-      margin-bottom: 10px; }
+      margin-bottom: 5px; }
     .step-2 .section-content .table-wrap .table tbody tr .address .form-control:first-child {
       width: 140px; }
     .step-2 .section-content .table-wrap .table tbody tr .address .form-control:nth-of-type(3) {
@@ -224,12 +205,17 @@
       font-size: 11px;
       line-height: 27px;
       color: #666;
-      font-weight: 400;
+      font-weight: 300;
       margin-left: 10px;
       margin-bottom: 0; }
   .step-2 .section-content .table-wrap .table tbody tr .call .form-control {
     width: 81px;
     display: inline-block; }
+  .step-2 .section-content .table-wrap .table tbody tr .call .reference {
+    display: inline-block; }
+  .step-2 .section-content .table-wrap .table tbody tr .call .check {
+    margin: -2px 5px 0 10px;
+    vertical-align: middle; }
   .step-2 .section-content .table-wrap .table tbody tr .email .form-control {
     width: 176px;
     display: inline-block; }
@@ -274,7 +260,6 @@
       height: 27px;
       line-height: 27px;
       font-weight: 300;
-      letter-spacing: -1px;
       color: #222;
       background-image: url(/assets/images/member/step03_bg.png);
       background-repeat: no-repeat;
@@ -300,7 +285,7 @@
     font-size: 22px;
     color: #fff;
     margin: 0 auto;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 48px;
     padding-left: 30px;
     background-color: #4f4f4f; }
