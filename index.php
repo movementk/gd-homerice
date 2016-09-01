@@ -79,18 +79,8 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script>
         $('.visual ul').bxSlider({
-            auto: false
+            auto: true
         });
     </script>
-    <!--<script>
-        (function($) {
-            $(document).on('mouseenter focusin', '#gnb .container', function() {
-                $('#gnb').addClass('opened');
-            });
-            $(document).on('mouseleave', '#gnb .container', function() {
-                $('#gnb').removeClass('opened');
-            });
-        })(jQuery);
-    </script>-->
 </body>
 </html>

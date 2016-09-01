@@ -156,8 +156,8 @@ input, textarea {
       height: 580px;
       display: block;
       background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center; }
+      background-size: auto 100%;
+      background-position: 50% 0; }
     .visual .bx-wrapper .bx-viewport ul li .first {
       background-image: url(/assets/images/main/main_visual01.jpg); }
     .visual .bx-wrapper .bx-viewport ul li .second {
@@ -353,13 +353,6 @@ input, textarea {
 #main-menu .single-menu {
   margin-bottom: 32px; }
 
-/*
-#footer i {
-    font-size: 19px;
-    font-style: normal;
-    font-family: 'lato';
-}
-*/
 #footer .nav-foot {
   padding: 39px 0;
   border-top: 1px solid #ccc;

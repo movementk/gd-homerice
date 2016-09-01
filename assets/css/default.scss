@@ -192,8 +192,8 @@ input, textarea {
                         height: 580px;
                         display: block;
                         background-repeat: no-repeat;
-                        background-size: cover;
-                        background-position: center;
+                        background-size: auto 100%;
+                        background-position: 50% 0;
                     }
                     .first {
                         background-image: url(/assets/images/main/main_visual01.jpg);
@@ -456,13 +456,6 @@ input, textarea {
     }
 }
 
-/*
-#footer i {
-    font-size: 19px;
-    font-style: normal;
-    font-family: 'lato';
-}
-*/
 #footer {
     .nav-foot {
         padding: 39px 0;

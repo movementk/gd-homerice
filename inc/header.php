@@ -2,7 +2,7 @@
 <a href="#content" class="skip-nav sr-only sr-only-focusable">컨텐츠로 건너뛰기</a>
 <header id="header">
     <div class="container">
-        <h1><a href="index.php"><img src="/assets/images/logo.jpg" alt="회사로고"></a></h1>
+        <h1><a href="/index.php"><img src="/assets/images/logo.jpg" alt="회사로고"></a></h1>
         <ul class="member">
             <li>
                 <a href="/member/login.php">로그인</a>
