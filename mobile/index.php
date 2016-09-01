@@ -112,6 +112,7 @@
                         <dd>031.487.1400</dd>
                     </a>
                 </dl>
+                <p>상담시간 <i>AM 10:00 ~ PM 08:00</i></p>
             </div>
         </main>
         <footer id="footer">
@@ -146,6 +147,32 @@
                             </dl>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>사업자등록번호</dt>
+                                <dd>134-85-56764</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>통신판매업신고번호</dt>
+                                <dd>안산 제22029호</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>개인정보관리책임자</dt>
+                                <dd>추태현</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>E-mail</dt>
+                                <dd>gdc8100@naver.com</dd>
+                            </dl>
+                        </li>
+                    </ul>
                     <h2>더 그레이스켈리 강남</h2>
                     <ul>
                         <li>
@@ -166,6 +193,32 @@
                                 <dd>031-413-0606</dd>
                             </dl>
                         </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>사업자등록번호</dt>
+                                <dd>161-85-00016</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>통신판매업신고번호</dt>
+                                <dd>2016-서울강남-02449호</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <div class="family dropup">
+                    <button class="btn dropdown-toggle" type="button" id="familysites-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        FAMILY SITE
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="familysites-menu">
+                        <li><a href="#">사이트 #1</a></li>
+                        <li><a href="#">사이트 #2</a></li>
+                        <li><a href="#">사이트 #3</a></li>
+                        <li><a href="#">사이트 #4</a></li>
                     </ul>
                 </div>
             </div>

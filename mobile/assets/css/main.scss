@@ -96,7 +96,7 @@
     .call-center {
         height: 150px;
         text-align: center;
-        padding-top: 33.6px;
+        padding-top: 32px;
         background-image: url(/mobile/assets/images/main/bg_call_center.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -132,6 +132,15 @@
                     color: #fff;
                     font-family: 'lato';
                 }
+            }
+        }
+        p {
+            font-size: 10px;
+            color: #fff;
+            text-align: center;
+            i {
+                font-style: normal;
+                font-family: 'Lato';
             }
         }
     }

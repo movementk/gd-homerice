@@ -55,7 +55,7 @@
 #content .call-center {
   height: 150px;
   text-align: center;
-  padding-top: 33.6px;
+  padding-top: 32px;
   background-image: url(/mobile/assets/images/main/bg_call_center.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,5 +87,12 @@
         font-size: 12px;
         color: #fff;
         font-family: 'lato'; }
+  #content .call-center p {
+    font-size: 10px;
+    color: #fff;
+    text-align: center; }
+    #content .call-center p i {
+      font-style: normal;
+      font-family: 'Lato'; }
 
 /*# sourceMappingURL=main.css.map */
