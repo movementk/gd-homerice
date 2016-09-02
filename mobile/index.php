@@ -1,236 +1,210 @@
-<!DOCTYPE html>
-<html lang="ko">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>GD 홈라이스</title>
-        <!-- Bootstrap -->
-        <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/mobile/assets/css/default.css" rel="stylesheet">
-        <link href="/mobile/assets/css/main.css" rel="stylesheet">
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-
-    <body>
-        <nav id="topnav">
-            <ul>
-                <li>
-                    <a href="#">카카오톡 상담</a>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
+<link href="/mobile/assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
+<main id="content">
+    <div class="visual">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <nav class="quick">
+        <ul>
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="/mobile/assets/images/main/menu_img01.png" alt="Store Info">
+                        <figcaption>Store Info</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="/mobile/assets/images/main/menu_img02.png" alt="Home Party">
+                        <figcaption>Home Party</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="/mobile/assets/images/main/menu_img03.png" alt="Single Dish">
+                        <figcaption>Single Dish</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="/mobile/assets/images/main/menu_img04.png" alt="GD Homerice">
+                        <figcaption>GD Homerice</figcaption>
+                    </figure>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section class="homerice-menu party-menu">
+        <div class="container">
+            <h4>Home Party</h4>
+            <h3>고품격 요리 홈파티 메뉴</h3>
+            <p>
+                생일, 모임, 돌잔치, 캠핑등 스페셜 푸드가<br>
+                필요한 날엔 홈파티 메뉴로 즐겨보세요.
+            </p>
+            <ul class="row">
+                <li class="col-xs-6 col-sm-3">
+                    <a href="#">
+                        <p class="menu-img">
+                            <img src="/mobile/assets/images/main/menu_img_01.jpg" class="img-responsive" alt="상품 이미지">
+                        </p>
+                        <div class="details">
+                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <p class="amunt">
+                                299,000<i>원</i>
+                                <small>400,000원</small>
+                            </p>
+                        </div>
+                    </a>
                 </li>
-                <li>
-                    <a href="#">전화문의</a>
+                <li class="col-xs-6 col-sm-3">
+                    <a href="#">
+                        <p class="menu-img">
+                            <img src="/mobile/assets/images/main/menu_img_02.jpg" class="img-responsive" alt="상품 이미지">
+                        </p>
+                        <div class="details">
+                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <p class="amunt">
+                                299,000<i>원</i>
+                                <small>400,000원</small>
+                            </p>
+                        </div>
+                    </a>
                 </li>
-                <li>
-                    <a href="#">PC버전</a>
+                <li class="col-xs-6 col-sm-3">
+                    <a href="#">
+                        <p class="menu-img">
+                            <img src="/mobile/assets/images/main/menu_img_03.jpg" class="img-responsive" alt="상품 이미지">
+                        </p>
+                        <div class="details">
+                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <p class="amunt">
+                                299,000<i>원</i>
+                                <small>400,000원</small>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-3">
+                    <a href="#">
+                        <p class="menu-img">
+                            <img src="/mobile/assets/images/main/menu_img_04.jpg" class="img-responsive" alt="상품 이미지">
+                        </p>
+                        <div class="details">
+                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <p class="amunt">
+                                299,000<i>원</i>
+                                <small>400,000원</small>
+                            </p>
+                        </div>
+                    </a>
                 </li>
             </ul>
-        </nav>
-        <header id="header">
-            <button type="button" class="btn btn-menu">
-                <span class="menu"></span>
-                <span class="sr-only">메뉴버튼</span>
-            </button>
-            <h1><img src="/mobile/assets/images/main/logo.jpg" alt="로고"></h1>
-            <button type="button" class="btn btn-search">
-                <span class="search"></span>
-                <span class="sr-only">검색버튼</span>
-            </button>
-        </header>
-        <main id="content">
-            <div class="visual">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <nav class="quick">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <figure>
-                                <img src="/mobile/assets/images/main/menu_img01.png" alt="">
-                                <figcaption>Store Info</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <figure>
-                                <img src="/mobile/assets/images/main/menu_img02.png" alt="">
-                                <figcaption>Home Party</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <figure>
-                                <img src="/mobile/assets/images/main/menu_img03.png" alt="">
-                                <figcaption>Single Dish</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <figure>
-                                <img src="/mobile/assets/images/main/menu_img04.png" alt="">
-                                <figcaption>GD Homerice</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="call-center">
-                <h2>Call Center</h2>
-                <hr>
-                <dl>
-                    <a href="tel:025476400">
-                        <dt>강남점</dt>
-                        <dd>02.547.6400</dd>
+            <p class="more">홈파티 메뉴 더보기<span class="glyphicon glyphicon-menu-right"></span></p>
+        </div>
+    </section>
+    <section class="homerice-menu single-menu">
+        <div class="container">
+            <h4>Single Dish</h4>
+            <h3>간편하게 즐기는 단품메뉴</h3>
+            <p>
+                야유회, 운동회, 세미나 등 간편한 푸드가<br>
+                필요한 날엔 단품메뉴로 즐겨보세요
+            </p>
+            <ul class="row">
+                <li class="col-xs-6 col-sm-3">
+                    <a href="#">
+                        <p class="menu-img">
+                            <img src="/mobile/assets/images/main/menu_img_01.jpg" class="img-responsive" alt="상품 이미지">
+                        </p>
+                        <div class="details">
+                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <p class="amunt">
+                                299,000<i>원</i>
+                                <small>400,000원</small>
+                            </p>
+                        </div>
                     </a>
-                </dl>
-                <dl>
-                    <a href="tel:0314871400">
-                        <dt>안산점</dt>
-                        <dd>031.487.1400</dd>
+                </li>
+                <li class="col-xs-6 col-sm-3">
+                    <a href="#">
+                        <p class="menu-img">
+                            <img src="/mobile/assets/images/main/menu_img_02.jpg" class="img-responsive" alt="상품 이미지">
+                        </p>
+                        <div class="details">
+                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <p class="amunt">
+                                299,000<i>원</i>
+                                <small>400,000원</small>
+                            </p>
+                        </div>
                     </a>
-                </dl>
-                <p>상담시간 <i>AM 10:00 ~ PM 08:00</i></p>
-            </div>
-        </main>
-        <footer id="footer">
-            <div class="policy">
-                <ul>
-                    <li><a href="#">이용약관</a></li>
-                    <li><a href="#">개인정보보호정책</a></li>
-                    <li><a href="#">이용안내</a></li>
-                    <li><a href="#">매장정보</a></li>
-                </ul>
-            </div>
-            <div class="container">
-                <div class="company">
-                    <h2>더 파티움 안산</h2>
-                    <ul>
-                        <li>
-                            <dl>
-                                <dt>대표</dt>
-                                <dd>황수원</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>전화</dt>
-                                <dd><a href="tel:0314871400">031-487-1400</a></dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>팩스</dt>
-                                <dd>031-413-0606</dd>
-                            </dl>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <dl>
-                                <dt>사업자등록번호</dt>
-                                <dd>134-85-56764</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>통신판매업신고번호</dt>
-                                <dd>안산 제22029호</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>개인정보관리책임자</dt>
-                                <dd>추태현</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>E-mail</dt>
-                                <dd>gdc8100@naver.com</dd>
-                            </dl>
-                        </li>
-                    </ul>
-                    <h2>더 그레이스켈리 강남</h2>
-                    <ul>
-                        <li>
-                            <dl>
-                                <dt>대표</dt>
-                                <dd>황수원</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>전화</dt>
-                                <dd><a href="tel:025476400">02-547-6400</a></dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>팩스</dt>
-                                <dd>031-413-0606</dd>
-                            </dl>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <dl>
-                                <dt>사업자등록번호</dt>
-                                <dd>161-85-00016</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>통신판매업신고번호</dt>
-                                <dd>2016-서울강남-02449호</dd>
-                            </dl>
-                        </li>
-                    </ul>
-                </div>
-                <div class="family dropup">
-                    <button class="btn dropdown-toggle" type="button" id="familysites-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        FAMILY SITE
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="familysites-menu">
-                        <li><a href="#">사이트 #1</a></li>
-                        <li><a href="#">사이트 #2</a></li>
-                        <li><a href="#">사이트 #3</a></li>
-                        <li><a href="#">사이트 #4</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="/assets/js/bootstrap.min.js"></script>
-        <script src="/assets/js/jquery.bxslider.min.js"></script>
-        <script>
-        $('.visual ul').bxSlider({
-            auto: false,
-            controls: false
-        });
-    </script>
-    </body>
+                </li>
+                <li class="col-xs-6 col-sm-3">
+                    <a href="#">
+                        <p class="menu-img">
+                            <img src="/mobile/assets/images/main/menu_img_03.jpg" class="img-responsive" alt="상품 이미지">
+                        </p>
+                        <div class="details">
+                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <p class="amunt">
+                                299,000<i>원</i>
+                                <small>400,000원</small>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-3">
+                    <a href="#">
+                        <p class="menu-img">
+                            <img src="/mobile/assets/images/main/menu_img_04.jpg" class="img-responsive" alt="상품 이미지">
+                        </p>
+                        <div class="details">
+                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <p class="amunt">
+                                299,000<i>원</i>
+                                <small>400,000원</small>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <p class="more">홈파티 메뉴 더보기<span class="glyphicon glyphicon-menu-right"></span></p>
+        </div>
+    </section>
+</main>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
+<script>
+$('.visual ul').bxSlider({
+    auto: true,
+    controls: false
+});
+</script>
+</body>
 </html>

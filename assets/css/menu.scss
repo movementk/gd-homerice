@@ -44,7 +44,6 @@
         .menu-view {
             position: relative;
             overflow: hidden;
-            height: 498px;
             margin-bottom: 100px;
             .details-img {
                 float: left;
@@ -116,7 +115,7 @@
                                 height: 24px;
                                 border: 1px solid #e4eaec;
                             }
-                            > .btn-area {
+                            .btn-area {
                                 position: absolute;
                                 top: 10px;
                                 left: 0;
@@ -162,10 +161,33 @@
                             line-height: 54px;
                         }
                         dd.addition {
+                            width: 430px;
                             position: relative;
+                            .del {
+                                position: absolute;
+                                top: 10px;
+                                right: 0;
+                                p {
+                                    .btn-del {
+                                        display: inline-block;
+                                        text-align: center;
+                                        line-height: 36px;
+                                        color: #ccc;
+                                        width: 36px;
+                                        height: 36px;
+                                        border: 1px solid #d4d4d4;
+                                        &:hover,
+                                        &:focus {
+                                            text-decoration: none;
+                                            opacity: .8;
+
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
-                    .inline-dl:nth-of-type(2) {
+                    .inline-dl.option {
                         padding-bottom: 0;
                     }
                     .total {
@@ -198,9 +220,7 @@
             }
         }
         .total-btn {
-            position: absolute;
-            bottom: 0;
-            right: 0;
+            margin-top: 22px;
         }
     }
     .information-list {

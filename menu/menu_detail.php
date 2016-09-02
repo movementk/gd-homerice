@@ -38,7 +38,7 @@
                                 </select>
                             </dd>
                         </dl>
-                        <dl class="inline-dl">
+                        <dl class="inline-dl option">
                             <dt class="addition">홈파티 메뉴A (10인분)</dt>
                             <dd class="addition">
                                 <div class="btn-area">
@@ -46,6 +46,41 @@
                                         <a href="" class="btn btn-minus" role="button"></a>
                                         <span>1</span>
                                         <a href="" class="btn btn-plus" role="button"></a>
+                                    </p>
+                                </div>
+                                <div class="del">
+                                    <p>
+                                        <a href="javascript:;" class="btn-del glyphicon glyphicon-remove" role="button"></a>
+                                    </p>
+                                </div>
+                            </dd>
+                            <dt class="addition">홈파티 메뉴A (10인분)</dt>
+                            <dd class="addition">
+                                <div class="btn-area">
+                                    <p>
+                                        <a href="" class="btn btn-minus" role="button"></a>
+                                        <span>1</span>
+                                        <a href="" class="btn btn-plus" role="button"></a>
+                                    </p>
+                                </div>
+                                <div class="del">
+                                    <p>
+                                        <a href="javascript:;" class="btn-del glyphicon glyphicon-remove" role="button"></a>
+                                    </p>
+                                </div>
+                            </dd>
+                            <dt class="addition">홈파티 메뉴A (10인분)</dt>
+                            <dd class="addition">
+                                <div class="btn-area">
+                                    <p>
+                                        <a href="" class="btn btn-minus" role="button"></a>
+                                        <span>1</span>
+                                        <a href="" class="btn btn-plus" role="button"></a>
+                                    </p>
+                                </div>
+                                <div class="del">
+                                    <p>
+                                        <a href="javascript:;" class="btn-del glyphicon glyphicon-remove" role="button"></a>
                                     </p>
                                 </div>
                             </dd>

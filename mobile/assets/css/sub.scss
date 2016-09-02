@@ -1,0 +1,129 @@
+.sub {
+    .container {
+        padding-top: 29.6px;
+        padding-bottom: 33px;
+        .table-wrap {
+            .table.table-bordered {
+                border-color: #ebebeb;
+                thead {
+                    th {
+                        font-size: 11px;
+                        color: #666;
+                        font-weight: bold;
+                        text-align: center;
+                        vertical-align: middle;
+                        padding: 12.6px 0;
+                        border-color: #ebebeb;
+                        border-bottom: 0;
+                        background-color: #f9f9f9;
+                    }
+                }
+                tbody {
+                    td {
+                        font-size: 10px;
+                        color: #666;
+                        text-align: center;
+                        vertical-align: middle;
+                        padding: 10.3px;
+                        border-color: #ebebeb;
+                    }
+                }
+            }
+        }
+        .notice-list {
+            li {
+                padding: 11.3px 7.3px;
+                border-top: 1.33px solid #d4d4d4;
+                a {
+                    display: inline-block;
+                    min-width: 180px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    color: #666;
+                }
+                .user-info {
+                    display: inline-block;
+                    p {
+                        display: inline-block;
+                        font-size: 10px;
+                        color: #666;
+                    }
+                    .user-name {
+                        min-width: 43px;
+                    }
+                }
+            }
+            li:last-child {
+                border-bottom: 1.33px solid #d4d4d4;
+            }
+        }
+        .paging {
+            text-align: center;
+            .pagination {
+                li {
+                    a {
+                        width: 30px;
+                        height: 30px;
+                        font-size: 10px;
+                        color: #222;
+                        line-height: 28px;
+                        text-align: center;
+                        padding: 0;
+                        border-radius: 0;
+                        border-color: #ccc;
+                    }
+                }
+                .active {
+                    a {
+                        color: #fff;
+                        background-color: #9f080d;
+                        border-color: #9f080d;
+                    }
+                }
+            }
+        }
+        .btn-area {
+            p {
+                .btn {
+                    font-size: 11px;
+                    color: #fff;
+                    text-align: center;
+                    padding: 0;
+                    margin: 0;
+                    border-radius: 0;
+                }
+                .btn-default {
+                    color: #666;
+                    background-color: #fff;
+                    border: 1px solid #d4d4d4;
+                }
+                .btn-xs {
+                    min-width: 70px;
+                    min-height: 29.6px;
+                    line-height: 29.6px;
+                }
+                .btn-sm {
+                    font-size: 12px;
+                    min-width: 115px;
+                    min-height: 33.33px;
+                    line-height: 33.33px;
+                }
+                .btn-lg {
+                    font-size: 12px;
+                    min-width: 240px;
+                    min-height: 33.33px;
+                    line-height: 33.33px;
+                }
+                .btn-red {
+                    border: 1px solid #9f080d;
+                    background-color: #9f080d;
+                }
+                .btn-gray {
+                    border-color: #7b7b7b;
+                    background-color: #7b7b7b;
+                }
+            }
+        }
+    }
+}

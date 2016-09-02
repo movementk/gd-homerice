@@ -118,18 +118,57 @@ ul, ol {
 #footer {
   background-color: #333;
   padding-bottom: 23.6px; }
+  #footer .call-center {
+    height: 150px;
+    text-align: center;
+    padding-top: 28px;
+    background-image: url(/mobile/assets/images/main/bg_call_center.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; }
+    #footer .call-center h2 {
+      font-size: 16px;
+      color: #fff;
+      font-style: italic;
+      font-weight: bold;
+      font-family: 'georgia'; }
+    #footer .call-center hr {
+      display: block;
+      width: 37.3px;
+      border-top: 1px solid #fff;
+      margin: 11.6px auto; }
+    #footer .call-center .call-number a {
+      text-align: center;
+      font-size: 11px;
+      color: #fff;
+      line-height: 16px; }
+      #footer .call-center .call-number a i {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 16px;
+        font-style: normal;
+        font-family: 'lato';
+        margin-left: 10.6px; }
+    #footer .call-center .call-time {
+      font-size: 10px;
+      color: #fff;
+      text-align: center;
+      margin-top: 9px; }
+      #footer .call-center .call-time i {
+        font-style: normal;
+        font-family: 'Lato'; }
   #footer .policy {
     height: 35px;
     background-color: #4f4f4f; }
     #footer .policy ul {
-      overflow: hidden; }
+      text-align: center; }
       #footer .policy ul li {
-        float: left;
-        width: 25%;
-        text-align: center; }
+        display: inline-block;
+        text-align: center;
+        margin: 0 14px; }
         #footer .policy ul li a {
           color: #fff;
-          font-size: 11px;
+          font-size: 10px;
           line-height: 35px; }
   #footer .company h2 {
     font-size: 12.6px;
@@ -187,8 +226,23 @@ ul, ol {
   #footer .dropdown-menu {
     width: 100%;
     margin: 0;
+    font-size: 11px;
+    box-shadow: none;
     border: 1px solid #fff;
-    border-bottom: 0;
     border-radius: 0; }
+    #footer .dropdown-menu li a {
+      height: 32px; }
+  #footer .copyright {
+    display: block;
+    font-size: 11px;
+    color: #fff;
+    opacity: .3;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 31.6px;
+    padding-top: 20px;
+    border-top: 1px solid #474747; }
+    #footer .copyright a {
+      color: #fff; }
 
 /*# sourceMappingURL=default.css.map */
