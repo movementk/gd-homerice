@@ -52,47 +52,79 @@
       #content .quick ul li a:nth-of-type(4) figure img {
         height: 29px;
         margin-top: 18px; }
-#content .call-center {
-  height: 150px;
-  text-align: center;
-  padding-top: 32px;
-  background-image: url(/mobile/assets/images/main/bg_call_center.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%; }
-  #content .call-center h2 {
-    font-size: 16px;
-    color: #fff;
+#content .party-menu {
+  background-color: #f2f0e6; }
+#content .single-menu {
+  background-color: #fff; }
+#content .homerice-menu {
+  padding: 30px 0; }
+  #content .homerice-menu .container h4 {
+    font-size: 11px;
+    text-align: center;
+    font-family: 'georgia';
+    font-weight: 500;
     font-style: italic;
+    background-image: url(/mobile/assets/images/main/menu_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 122.33px 8.33px; }
+  #content .homerice-menu .container h3 {
+    font-size: 15px;
     font-weight: bold;
-    font-family: 'georgia'; }
-  #content .call-center hr {
-    display: block;
-    width: 37.3px;
-    border-top: 1px solid #fff;
-    margin: 12.3px auto 11.6px auto; }
-  #content .call-center dl {
-    overflow: hidden; }
-    #content .call-center dl a {
-      display: inline-block; }
-      #content .call-center dl a dt {
-        float: left;
-        clear: both;
-        font-size: 11px;
-        color: #fff;
-        font-weight: 300;
-        margin-right: 10.6px; }
-      #content .call-center dl a dd {
-        float: left;
-        font-size: 12px;
-        color: #fff;
-        font-family: 'lato'; }
-  #content .call-center p {
+    text-align: center;
+    margin: 9px 0 15px; }
+  #content .homerice-menu .container > p {
     font-size: 10px;
-    color: #fff;
-    text-align: center; }
-    #content .call-center p i {
-      font-style: normal;
-      font-family: 'Lato'; }
+    color: #999;
+    text-align: center;
+    line-height: 12.6px; }
+  #content .homerice-menu .container ul li {
+    margin-top: 20px; }
+    #content .homerice-menu .container ul li a {
+      display: block;
+      border: 1px solid #dadada; }
+      #content .homerice-menu .container ul li a:hover, #content .homerice-menu .container ul li a:focus {
+        text-decoration: none;
+        border-color: #9f0a0e; }
+      #content .homerice-menu .container ul li a .details {
+        padding: 9px;
+        background-color: #f9f9f9; }
+        #content .homerice-menu .container ul li a .details h5 {
+          font-size: 10px;
+          color: #222;
+          margin-bottom: 6px; }
+        #content .homerice-menu .container ul li a .details .amunt {
+          font-size: 13px;
+          color: #9f0a0e;
+          font-weight: bold; }
+          #content .homerice-menu .container ul li a .details .amunt i {
+            font-style: normal;
+            color: #222;
+            font-weight: 400; }
+          #content .homerice-menu .container ul li a .details .amunt small {
+            display: inline-block;
+            font-size: 10px;
+            margin-left: 5px;
+            color: #666;
+            opacity: .5px !important;
+            font-weight: 300;
+            text-decoration: line-through; }
+  #content .homerice-menu .container .more {
+    font-size: 11px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+    color: #222; }
+    #content .homerice-menu .container .more span {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      font-size: 10px;
+      line-height: 13px;
+      vertical-align: middle;
+      margin-left: 6.6px;
+      margin-top: -2px;
+      border: 1px solid #222;
+      border-radius: 50%; }
 
 /*# sourceMappingURL=main.css.map */

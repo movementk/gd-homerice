@@ -31,7 +31,6 @@
   .menu-detail .container .menu-view {
     position: relative;
     overflow: hidden;
-    height: 498px;
     margin-bottom: 100px; }
     .menu-detail .container .menu-view .details-img {
       float: left;
@@ -88,29 +87,29 @@
             width: 152px;
             height: 24px;
             border: 1px solid #e4eaec; }
-          .menu-detail .container .menu-view .details .addition-option .inline-dl dd > .btn-area {
+          .menu-detail .container .menu-view .details .addition-option .inline-dl dd .btn-area {
             position: absolute;
             top: 10px;
             left: 0;
             width: 124px;
             height: 36px;
             overflow: hidden; }
-            .menu-detail .container .menu-view .details .addition-option .inline-dl dd > .btn-area p .btn {
+            .menu-detail .container .menu-view .details .addition-option .inline-dl dd .btn-area p .btn {
               display: block;
               width: 36px !important;
               height: 36px !important;
               border: 1px solid #d4d4d4; }
-            .menu-detail .container .menu-view .details .addition-option .inline-dl dd > .btn-area p .btn-minus {
+            .menu-detail .container .menu-view .details .addition-option .inline-dl dd .btn-area p .btn-minus {
               float: left;
               background-image: url(/assets/images/menu/minus_btn.png);
               background-repeat: no-repeat;
               background-position: 50% 50%; }
-            .menu-detail .container .menu-view .details .addition-option .inline-dl dd > .btn-area p .btn-plus {
+            .menu-detail .container .menu-view .details .addition-option .inline-dl dd .btn-area p .btn-plus {
               float: right;
               background-image: url(/assets/images/menu/plus_btn.png);
               background-repeat: no-repeat;
               background-position: 50% 50%; }
-            .menu-detail .container .menu-view .details .addition-option .inline-dl dd > .btn-area p > span {
+            .menu-detail .container .menu-view .details .addition-option .inline-dl dd .btn-area p > span {
               float: left;
               width: 52px;
               height: 36px;
@@ -125,8 +124,24 @@
           width: 140px;
           line-height: 54px; }
         .menu-detail .container .menu-view .details .addition-option .inline-dl dd.addition {
+          width: 430px;
           position: relative; }
-      .menu-detail .container .menu-view .details .addition-option .inline-dl:nth-of-type(2) {
+          .menu-detail .container .menu-view .details .addition-option .inline-dl dd.addition .del {
+            position: absolute;
+            top: 10px;
+            right: 0; }
+            .menu-detail .container .menu-view .details .addition-option .inline-dl dd.addition .del p .btn-del {
+              display: inline-block;
+              text-align: center;
+              line-height: 36px;
+              color: #ccc;
+              width: 36px;
+              height: 36px;
+              border: 1px solid #d4d4d4; }
+              .menu-detail .container .menu-view .details .addition-option .inline-dl dd.addition .del p .btn-del:hover, .menu-detail .container .menu-view .details .addition-option .inline-dl dd.addition .del p .btn-del:focus {
+                text-decoration: none;
+                opacity: .8; }
+      .menu-detail .container .menu-view .details .addition-option .inline-dl.option {
         padding-bottom: 0; }
       .menu-detail .container .menu-view .details .addition-option .total {
         text-align: right;
@@ -151,9 +166,7 @@
           font-weight: 400;
           color: #333; }
   .menu-detail .container .total-btn {
-    position: absolute;
-    bottom: 0;
-    right: 0; }
+    margin-top: 22px; }
 .menu-detail .information-list {
   width: 100%;
   padding-bottom: 15px;
