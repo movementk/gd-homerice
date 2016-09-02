@@ -1,0 +1,30 @@
+.member {
+    h3 {
+        font-size: 15px;
+        text-align: center;
+        color: #222;
+        margin-bottom: 30px;
+    }
+    .step-menu {
+        overflow: hidden;
+        text-align: center;
+        li {
+            float: left;
+            min-width: 100px;
+            border-top: 1px solid #d4d4d4;
+            border-left: 1px solid #d4d4d4;
+            border-bottom: 1px solid #d4d4d4;
+            a {
+                display: block;
+                height: 33.33px;
+                font-size: 11px;
+                line-height: 31px;
+                color: #666;
+                text-align: center;
+            }
+        }
+        li:last-child {
+            border-right: 1px solid #d4d4d4;
+        }
+    }
+}

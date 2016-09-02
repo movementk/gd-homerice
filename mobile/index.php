@@ -8,17 +8,17 @@
         <ul>
             <li>
                 <a href="#">
-                    <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="">
+                    <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="메인 이미지">
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="">
+                    <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="메인 이미지">
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="">
+                    <img src="/mobile/assets/images/main/bg_visual_1.jpg" class="img-responsive" alt="메인 이미지">
                 </a>
             </li>
         </ul>
