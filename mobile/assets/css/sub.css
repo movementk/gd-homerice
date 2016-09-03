@@ -1,7 +1,49 @@
+input {
+  margin: 0;
+  box-shadow: none; }
+
+input[type=checkbox],
+input[type=radio] {
+  vertical-align: middle;
+  margin: 0;
+  box-shadow: none;
+  display: block; }
+
+.form-control {
+  border-radius: 0;
+  height: 29.6px;
+  width: 100%;
+  font-size: 10px;
+  color: #666;
+  border: 1px solid #ebebeb;
+  background-color: #fbfbfb;
+  padding: 5px;
+  box-shadow: none; }
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #9f080d; }
+
+label {
+  margin: 0;
+  font-size: 10px;
+  color: #666; }
+
+.reference {
+  font-size: 10px;
+  color: #666;
+  font-weight: bold; }
+
+.surely:before {
+  content: "*";
+  font-size: 10px;
+  color: #dd3d42;
+  padding-right: 3px; }
+
 .sub .container {
   padding-top: 29.6px;
   padding-bottom: 33px; }
   .sub .container .table-wrap .table.table-bordered {
+    margin: 0;
     border-color: #ebebeb; }
     .sub .container .table-wrap .table.table-bordered thead th {
       font-size: 11px;
@@ -42,20 +84,22 @@
     border-bottom: 1.33px solid #d4d4d4; }
   .sub .container .paging {
     text-align: center; }
-    .sub .container .paging .pagination li a {
-      width: 30px;
-      height: 30px;
-      font-size: 10px;
-      color: #222;
-      line-height: 28px;
-      text-align: center;
-      padding: 0;
-      border-radius: 0;
-      border-color: #ccc; }
-    .sub .container .paging .pagination .active a {
-      color: #fff;
-      background-color: #9f080d;
-      border-color: #9f080d; }
+    .sub .container .paging .pagination {
+      margin: 0; }
+      .sub .container .paging .pagination li a {
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+        color: #222;
+        line-height: 28px;
+        text-align: center;
+        padding: 0;
+        border-radius: 0;
+        border-color: #ccc; }
+      .sub .container .paging .pagination .active a {
+        color: #fff;
+        background-color: #9f080d;
+        border-color: #9f080d; }
   .sub .container .btn-area p .btn {
     font-size: 11px;
     color: #fff;
@@ -68,19 +112,18 @@
     background-color: #fff;
     border: 1px solid #d4d4d4; }
   .sub .container .btn-area p .btn-xs {
-    min-width: 70px;
-    min-height: 29.6px;
-    line-height: 29.6px; }
+    width: 70px;
+    height: 29.6px;
+    line-height: 26.6px; }
   .sub .container .btn-area p .btn-sm {
     font-size: 12px;
-    min-width: 115px;
-    min-height: 33.33px;
-    line-height: 33.33px; }
+    width: 115px;
+    line-height: 29.33px; }
   .sub .container .btn-area p .btn-lg {
+    display: block;
     font-size: 12px;
-    min-width: 240px;
-    min-height: 33.33px;
-    line-height: 33.33px; }
+    width: 240px;
+    line-height: 29.33px; }
   .sub .container .btn-area p .btn-red {
     border: 1px solid #9f080d;
     background-color: #9f080d; }
