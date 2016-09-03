@@ -5,21 +5,21 @@
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
 <main class="sub member">
-    <section class="login">
+    <section class="login id-confirm">
         <div class="container">
-            <h3>로그인</h3>
+            <h3>아이디/비밀번호 찾기</h3>
             <div class="section-content">
                 <form>
                     <div class="login-form">
-                        <input type="text" class="form-control" id="user-id" placeholder="아이디">
-                        <label for="user-id" class="sr-only">아이디</label>
-                        <input type="text" class="form-control" id="user-pw" placeholder="패스워드">
-                        <label for="user-pw" class="sr-only">패스워드</label>
+                        <p>
+                            회원가입 시 등록하신 이메일 주소를 입력해 주세요.<br>
+                            해당 이메일로 아이디와 비밀번호 정보를 보내드립니다.
+                        </p>
+                        <input type="text" class="form-control" id="email" placeholder="E-MAIL 주소를 입력하세요">
+                        <label for="email" class="sr-only">이메일</label>
                         <div class="btn-area">
                             <p>
-                                <a href="#" class="btn btn-lg btn-red">로그인</a>
-                                <a href="#" class="btn btn-sm btn-gray">회원가입</a>
-                                <a href="#" class="btn btn-sm btn-gray">ID/PW 찾기</a>
+                                <a href="#" class="btn btn-lg btn-gray">확인</a>
                             </p>
                         </div>
                     </div>

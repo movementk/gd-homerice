@@ -1,0 +1,717 @@
+/* mypage 공통 */
+.mypage {
+    h3 {
+        font-size: 15px;
+        text-align: center;
+        color: #222;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .use {
+        font-size: 12.6px;
+        color: #222;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 16.66px;
+        i {
+            font-style: normal;
+            color: #9f0a0e;
+        }
+    }
+}
+.total {
+    display: block;
+    width: 100%;
+    font-size: 11px;
+    color: #666;
+    padding: 11px;
+    border: 1px solid #ebebeb;
+    background-color: #f9f9f9;
+    span {
+        float: right;
+        font-size: 15px;
+        text-align: right;
+        b {
+            color: #9f0a0e;
+        }
+    }
+}
+/* modify */
+.modify {
+    .section-content {
+        .surely {
+            font-size: 10px;
+            color: #666;
+            margin-bottom: 8.33px;
+        }
+        .table-wrap.join-form {
+            margin-bottom: 26.66px;
+            .table {
+                tbody {
+                    tr {
+                        th {
+                            font-size: 10px;
+                            color: #666;
+                            font-weight: bold;
+                            vertical-align: middle;
+                            padding-left: 9.33px;
+                            border-color: #ebebeb;
+                            background-color: #f9f9f9;
+                        }
+                        td {
+                            padding: 10px;
+                            text-align: left;
+                            border-color: #ebebeb;
+                        }
+                        .user-id {
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                        }
+                        .user-name {
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                        }
+                        .addr {
+                            overflow: hidden;
+                            .form-control {
+                                margin-top: 3.33px;
+                                &:nth-of-type(1) {
+                                    float: left;
+                                    width: 57%;
+                                    margin-top: 0;
+                                    margin-bottom: 3.33px;
+                                }
+                            }
+                            .btn-area {
+                                float: left;
+                                margin-left: 10px;
+                            }
+                        }
+                        .call {
+                            .form-control {
+                                width: 30%;
+                                display: inline-block;
+                            }
+                            .reference {
+                                display: block;
+                                margin-top: 6.66px;
+                                .check {
+                                    display: inline;
+                                    vertical-align: middle;
+                                    margin-top: -2px;
+                                }
+                            }
+                        }
+                        .email {
+                            .form-control {
+                                width: 46%;
+                                display: inline-block;
+                            }
+                            .reference {
+                                display: block;
+                                margin-top: 6.66px;
+                                .check {
+                                    display: inline;
+                                    vertical-align: middle;
+                                    margin-top: -2px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            text-align: center;
+            > p {
+                .btn-red {
+                    margin-right: 7px;
+                }
+                .btn-gray {
+                    margin-left: 7px;
+                }
+            }
+        }
+    }
+}
+/* my-point */
+.my-point {
+    .paging {
+        margin-top: 26.33px;
+    }
+}
+/* my-coupon */
+.my-coupon {
+    .table-wrap {
+        .table {
+            tbody {
+                tr {
+                    td {
+                        &:nth-of-type(1) {
+                            text-align: left !important;
+                            padding-left: 9px !important;
+                        }
+                        h4 {
+                            font-size: 10px;
+                            font-weight: 300;
+                            color: #666;
+                            line-height: 15px;
+                        }
+                        p {
+                            font-size: 10px;
+                            color: #666;
+                            line-height: 15px;
+                        }
+                        dl {
+                            dt {
+                                display: inline;
+                                font-size: 10px;
+                                color: #666;
+                                line-height: 15px;
+                                font-weight: 300;
+                                &:after {
+                                    content: ":";
+                                }
+                            }
+                            dd {
+                                display: inline;
+                                font-size: 10px;
+                                color: #666;
+                                line-height: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .paging {
+        margin-top: 26.33px;
+    }
+}
+/* product */
+.product {
+    .all-selected {
+        display: block;
+        width: 100%;
+        font-size: 11px;
+        color: #666;
+        padding: 11px;
+        border: 1px solid #ebebeb;
+        background-color: #f9f9f9;
+        .check {
+            display: inline-block;
+            margin-right: 6px;
+        }
+    }
+    .product-list {
+        margin-top: 10.66px;
+        li {
+            width: 100%;
+            padding: 11px;
+            margin-bottom: 3.33px;
+            border: 1px solid #ebebeb;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .check {
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 10.33px;
+            }
+            p {
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 10px;
+                a {
+                    img {
+                        width: 49.66px;
+                        height: 49.66px;
+                    }
+                }
+            }
+            .details {
+                width: 68%;
+                display: inline-block;
+                h4 {
+                    font-size: 12px;
+                    color: #666;
+                    font-weight: bold;
+                }
+                hr {
+                    display: block;
+                    margin: 8px 0 8.66px;
+                    border-top: 1px solid #ebebeb;
+                }
+                dl {
+                    overflow: hidden;
+                    dt {
+                        float: left;
+                        clear: both;
+                        width: 37.33px;
+                        font-size: 10px;
+                        color: #666;
+                        font-weight: 300;
+                        line-height: 16.66px;
+                    }
+                    dd {
+                        float: left;
+                        font-size: 10px;
+                        color: #666;
+                        font-weight: 300;
+                        line-height: 16.66px;
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        text-align: center;
+        margin-top: 26.66px;
+        p {
+            .btn.btn-position {
+                margin: 0 7px;
+                letter-spacing: -.5px;
+            }
+        }
+    }
+}
+/* order-view */
+.order-view {
+    .order-info {
+        padding: 13px 9.33px;
+        margin-bottom: 16.66px;
+        border: 1px solid #ebebeb;
+        .product-img {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 10px;
+            a {
+                img {
+                    width: 49.66px;
+                    height: 49.66px;
+                }
+            }
+        }
+        .details {
+            display: inline-block;
+            width: 77%;
+            h4 {
+                font-size: 12px;
+                color: #666;
+                font-weight: bold;
+                margin-bottom: 8px;
+            }
+            .menu-name {
+                display: block;
+                width: 100%;
+                height: 17.3px;
+                font-size: 10px;
+                color: #666;
+                padding-left: 10px;
+                background-color: #f9f9f9;
+                margin-bottom: 3.33px;
+            }
+            .count-dl {
+                display: block;
+                overflow: hidden;
+                background-color: #f9f9f9;
+                dt {
+                    float: left;
+                    clear: both;
+                    height: 17.3px;
+                    font-size: 10px;
+                    color: #666;
+                    font-weight: 300;
+                    padding-left: 10px;
+                    &:after {
+                        content: ":";
+                        padding: 0 2px;
+                    }
+                }
+                dd {
+                    float: left;
+                    font-size: 10px;
+                    color: #666;
+                }
+            }
+            hr {
+                display: block;
+                width: 100%;
+                border-top: 1px solid #ebebeb;
+                margin: 10.3px 0 9.66px;
+            }
+            .inline-dl {
+                overflow: hidden;
+                dt {
+                    float: left;
+                    clear: both;
+                    width: 37.33px;
+                    font-size: 10px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 16.66px;
+                }
+                dd {
+                    float: left;
+                    font-size: 10px;
+                    color: #666;
+                    line-height: 16.66px;
+                }
+                .color-bold {
+                    color: #9f0a0e;
+                }
+            }
+        }
+    }
+    .amount-info {
+        h5 {
+            font-size: 13px;
+            color: #222;
+            font-weight: bold;
+            margin: 28px 0 10px;
+        }
+        .table-wrap {
+            .table.table-bordered{
+                border-color: #ebebeb;
+                tbody {
+                    tr {
+                        th {
+                            font-size: 10px;
+                            color: #666;
+                            padding: 10.3px 0 10.3px 9px;
+                            border-color: #ebebeb;
+                            background-color: #f9f9f9;
+                        }
+                        td {
+                            font-size: 10px;
+                            color: #666;
+                            text-align: left;
+                            padding: 10.3px 0 10.3px 9px;
+                            border-color: #ebebeb;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        margin-top: 10px;
+        overflow: hidden;
+        p {
+            float: right;
+            .btn.btn-default {
+                letter-spacing: -1px;
+                margin-right: 7px;
+            }
+        }
+    }
+}
+/* order-list */
+.order-list {
+    .table-wrap {
+        .table {
+            tbody {
+                tr {
+                    td {
+                        &:nth-of-type(2) {
+                            text-align: left !important;
+                            h4 {
+                                font-size: 11px;
+                                color: #666;
+                                font-weight: bold;
+                                margin-bottom: 10px;
+                            }
+                            dl {
+                                overflow: hidden;
+                                dt {
+                                    float: left;
+                                    clear: both;
+                                    font-weight: 300;
+                                    line-height: 15px;
+                                    &:after {
+                                        content: ":";
+                                        padding: 0 2px;
+                                    }
+                                }
+                                dd {
+                                    float: left;
+                                    line-height: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .paging {
+        margin-top: 26.66px;
+    }
+}
+/* sucess */
+.sucess {
+    p {
+        font-size: 15px;
+        color: #222;
+        font-weight: 500;
+        line-height: 17.66px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    dl {
+        text-align: center;
+        margin-bottom: 26.66px;
+        dt {
+            display: inline;
+            font-size: 12px;
+            color: #222;
+            font-weight: 300;
+            &:afater {
+                content: ":";
+                padding: 0 2px;
+            }
+        }
+        dd {
+            display: inline;
+            font-size: 12px;
+            color: #9f080d;
+        }
+    }
+    .btn-area {
+        p {
+            .btn.btn-red {
+                margin-left: 7px;
+                letter-spacing: -1px;
+            }
+        }
+    }
+}
+
+/* payment */
+.payment {
+    .order-info {
+        .check {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 10px;
+        }
+        .details {
+            width: 68%;
+        }
+    }
+    .total {
+        margin-bottom: 10px;
+    }
+    .btn-area {
+        margin: 0;
+        p {
+            .btn.btn-default {
+                margin: 0;
+            }
+        }
+    }
+    .common-section {
+        h5 {
+            font-size: 13px;
+            font-weight: bold;
+            margin: 12.3px 0 11px;
+        }
+        .table-wrap.join-form {
+            margin-bottom: 26.66px;
+            .table {
+                tbody {
+                    tr {
+                        th {
+                            font-size: 10px;
+                            color: #666;
+                            font-weight: bold;
+                            vertical-align: middle;
+                            padding-left: 9.33px;
+                            border-color: #ebebeb;
+                            background-color: #f9f9f9;
+                        }
+                        td {
+                            padding: 10px;
+                            text-align: left;
+                            border-color: #ebebeb;
+                        }
+                        .user-id {
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                        }
+                        .user-name {
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                            .form-control {
+                                width: 57%;
+                            }
+                        }
+                        .user-name.padding-width {
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                        }
+                        .addr {
+                            overflow: hidden;
+                            .form-control {
+                                margin-top: 3.33px;
+                                &:nth-of-type(1) {
+                                    float: left;
+                                    width: 57%;
+                                    margin-top: 0;
+                                    margin-bottom: 3.33px;
+                                }
+                            }
+                            .btn-area {
+                                float: left;
+                                margin-left: 10px;
+                            }
+                        }
+                        .call {
+                            .form-control {
+                                width: 30%;
+                                display: inline-block;
+                            }
+                            .reference {
+                                display: block;
+                                margin-top: 6.66px;
+                                .check {
+                                    display: inline;
+                                    vertical-align: middle;
+                                    margin-top: -2px;
+                                }
+                            }
+                        }
+                        .email {
+                            .form-control {
+                                width: 46%;
+                                display: inline-block;
+                            }
+                            .reference {
+                                display: block;
+                                margin-top: 6.66px;
+                                .check {
+                                    display: inline;
+                                    vertical-align: middle;
+                                    margin-top: -2px;
+                                }
+                            }
+                        }
+                        .hope-date {
+                            .form-control {
+                                width: 43%;
+                                padding-right: 0;
+                                display: inline-block;
+                                margin-right: 5px;
+                            }
+                            p {
+                                display: inline-block;
+                            }
+                        }
+                        .branch {
+                            input[type=radio] {
+                                display: inline-block;
+                                margin-right: 3px;
+                            }
+                            label {
+                                display: inline-block;
+                                font-size: 11px;
+                                color: #666;
+                                font-weight: 300;
+                                &:nth-of-type(1) {
+                                    margin-right: 22px;
+                                }
+                            }
+                        }
+                        .delivery {
+                            input[type=radio] {
+                                display: inline-block;
+                                margin-right: 3px;
+                            }
+                            label {
+                                display: inline-block;
+                                font-size: 11px;
+                                color: #666;
+                                font-weight: 300;
+                                &:nth-of-type(1) {
+                                    margin-right: 13px;
+                                }
+                            }
+                        }
+                        .map-name {
+                            overflow: hidden;
+                            .form-control {
+                                float: left;
+                                width: 44%;
+                                margin-right: 10px;
+                            }
+                            > p {
+                                float: left;
+                                letter-spacing: -.5px;
+                                margin-top: 7px;
+                                .check {
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                        .order-content {
+                            textarea {
+                                width: 100%;
+                                height: 83px;
+                                border: 1px solid #ebebeb;
+                                background-color: #fbfbfb;
+                                box-shadow: none;
+                                &:focus {
+                                    box-shadow: none;
+                                    border-color: #9f0a0e;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

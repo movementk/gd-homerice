@@ -1,25 +1,260 @@
+@charset "UTF-8";
+/* member 공통 */
 .member h3 {
   font-size: 15px;
   text-align: center;
   color: #222;
+  font-weight: bold;
   margin-bottom: 30px; }
-.member .step-menu {
-  overflow: hidden;
+.member .step {
   text-align: center; }
-  .member .step-menu li {
-    float: left;
-    min-width: 100px;
-    border-top: 1px solid #d4d4d4;
-    border-left: 1px solid #d4d4d4;
-    border-bottom: 1px solid #d4d4d4; }
-    .member .step-menu li a {
+  .member .step .step-menu {
+    display: inline-block;
+    height: 33.33px; }
+    .member .step .step-menu li {
+      float: left;
+      min-width: 100px;
+      border-top: 1px solid #d4d4d4;
+      border-left: 1px solid #d4d4d4;
+      border-bottom: 1px solid #d4d4d4; }
+      .member .step .step-menu li:last-child {
+        border-right: 1px solid #d4d4d4; }
+      .member .step .step-menu li a {
+        display: block;
+        height: 33.33px;
+        font-size: 11px;
+        line-height: 31px;
+        color: #666;
+        text-align: center; }
+        .member .step .step-menu li a:hover {
+          text-decoration: none; }
+    .member .step .step-menu .active {
+      position: relative;
+      background-color: #9f080d;
+      border-color: #9f080d; }
+      .member .step .step-menu .active:after {
+        position: absolute;
+        bottom: -1.6px;
+        left: 42.3px;
+        display: block;
+        width: 10.33px;
+        height: 5.3px;
+        content: "";
+        background-image: url(/mobile/assets/images/member/step_active.png);
+        background-repeat: no-repeat;
+        background-size: 10.3px 5.3px; }
+      .member .step .step-menu .active a {
+        color: #fff; }
+
+/* join-step01 */
+.join-step01 .section-content h4 {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 15.3px 0 6px; }
+.join-step01 .section-content .terms {
+  overflow-y: scroll;
+  font-size: 10px;
+  color: #666;
+  line-height: 13px;
+  min-width: 100%;
+  height: 116.33px;
+  padding: 11.3px 9.3px;
+  border: 1px solid #ebebeb; }
+.join-step01 .section-content .check {
+  font-size: 10px;
+  color: #666;
+  margin-top: 10px; }
+  .join-step01 .section-content .check:nth-of-type(2) {
+    margin-top: 6.6px; }
+  .join-step01 .section-content .check input {
+    margin-right: 6.6px;
+    display: inline-block; }
+.join-step01 .section-content .btn-area {
+  text-align: center;
+  margin-top: 26.6px; }
+  .join-step01 .section-content .btn-area p .btn-red {
+    margin-right: 7px; }
+
+/* join-step02 */
+.join-step02 .step {
+  margin-bottom: 16.3px; }
+.join-step02 .section-content .surely {
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 8.33px; }
+.join-step02 .section-content .table-wrap.join-form {
+  margin-bottom: 26.66px; }
+  .join-step02 .section-content .table-wrap.join-form .table tbody tr th {
+    font-size: 10px;
+    color: #666;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-left: 9.33px;
+    border-color: #ebebeb;
+    background-color: #f9f9f9; }
+  .join-step02 .section-content .table-wrap.join-form .table tbody tr td {
+    padding: 10px;
+    text-align: left;
+    border-color: #ebebeb; }
+  .join-step02 .section-content .table-wrap.join-form .table tbody tr .user-id {
+    overflow: hidden; }
+    .join-step02 .section-content .table-wrap.join-form .table tbody tr .user-id .form-control {
+      float: left;
+      width: 57%; }
+    .join-step02 .section-content .table-wrap.join-form .table tbody tr .user-id .btn-area {
+      float: left;
+      margin-left: 10px; }
+    .join-step02 .section-content .table-wrap.join-form .table tbody tr .user-id .reference {
+      clear: both;
       display: block;
-      height: 33.33px;
-      font-size: 11px;
-      line-height: 31px;
-      color: #666;
-      text-align: center; }
-  .member .step-menu li:last-child {
-    border-right: 1px solid #d4d4d4; }
+      text-align: left;
+      padding-top: 3px; }
+  .join-step02 .section-content .table-wrap.join-form .table tbody tr .addr {
+    overflow: hidden; }
+    .join-step02 .section-content .table-wrap.join-form .table tbody tr .addr .form-control {
+      margin-top: 3.33px; }
+      .join-step02 .section-content .table-wrap.join-form .table tbody tr .addr .form-control:nth-of-type(1) {
+        float: left;
+        width: 57%;
+        margin-top: 0;
+        margin-bottom: 3.33px; }
+    .join-step02 .section-content .table-wrap.join-form .table tbody tr .addr .btn-area {
+      float: left;
+      margin-left: 10px; }
+  .join-step02 .section-content .table-wrap.join-form .table tbody tr .call .form-control {
+    width: 30%;
+    display: inline-block; }
+  .join-step02 .section-content .table-wrap.join-form .table tbody tr .call .reference {
+    display: block;
+    margin-top: 6.66px; }
+    .join-step02 .section-content .table-wrap.join-form .table tbody tr .call .reference .check {
+      display: inline;
+      vertical-align: middle;
+      margin-top: -2px; }
+  .join-step02 .section-content .table-wrap.join-form .table tbody tr .email .form-control {
+    width: 46%;
+    display: inline-block; }
+  .join-step02 .section-content .table-wrap.join-form .table tbody tr .email .reference {
+    display: block;
+    margin-top: 6.66px; }
+    .join-step02 .section-content .table-wrap.join-form .table tbody tr .email .reference .check {
+      display: inline;
+      vertical-align: middle;
+      margin-top: -2px; }
+.join-step02 .section-content .btn-area {
+  text-align: center; }
+  .join-step02 .section-content .btn-area p .btn-red {
+    margin-right: 7px; }
+
+/* join-step03 */
+.join-step03 .step {
+  margin-bottom: 16.3px; }
+.join-step03 .sucess {
+  text-align: center;
+  font-size: 15px;
+  color: #222;
+  font-weight: 500;
+  letter-spacing: -1px;
+  line-height: 17.6px;
+  margin-bottom: 35px;
+  background-image: url(/mobile/assets/images/member/sucess.png);
+  background-repeat: no-repeat;
+  background-size: 250px auto;
+  background-position: 50% 4px; }
+  .join-step03 .sucess i {
+    font-style: normal;
+    color: #9f080d; }
+.join-step03 .btn-area {
+  text-align: center; }
+
+/* login */
+.login .section-content .login-form {
+  padding: 30px 29px;
+  border: 1px solid #d4d4d4; }
+  .login .section-content .login-form .form-control {
+    margin-top: 6.66px; }
+    .login .section-content .login-form .form-control:nth-of-type(1) {
+      margin-top: 0; }
+  .login .section-content .login-form .btn-area {
+    margin-top: 10px;
+    text-align: center; }
+    .login .section-content .login-form .btn-area p .btn-lg {
+      margin: 0 auto; }
+    .login .section-content .login-form .btn-area p .btn-gray {
+      margin-top: 10px;
+      margin-right: 7px; }
+      .login .section-content .login-form .btn-area p .btn-gray:last-child {
+        margin-right: 0; }
+
+/* nonmember */
+.nonmember .section-content .login-form {
+  margin-bottom: 16.66px; }
+  .nonmember .section-content .login-form:last-child {
+    margin-bottom: 0; }
+  .nonmember .section-content .login-form h4 {
+    font-size: 12px;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px; }
+  .nonmember .section-content .login-form p {
+    font-size: 10px;
+    color: #666;
+    line-height: 12.6px;
+    text-align: center;
+    margin-bottom: 10px; }
+  .nonmember .section-content .login-form .btn-area p {
+    margin: 0; }
+    .nonmember .section-content .login-form .btn-area p .btn-lg.btn-gray {
+      margin: 0;
+      text-align: center;
+      display: inline-block; }
+
+/* non-login */
+.non-login .section-content .login-form {
+  margin-bottom: 16.66px; }
+  .non-login .section-content .login-form:last-child {
+    margin-bottom: 0; }
+  .non-login .section-content .login-form h4 {
+    font-size: 12px;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px; }
+  .non-login .section-content .login-form p {
+    font-size: 10px;
+    color: #9b0a0f;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 10px; }
+  .non-login .section-content .login-form .terms {
+    overflow-y: scroll;
+    font-size: 10px;
+    color: #666;
+    line-height: 13px;
+    width: 100%;
+    height: 140px;
+    padding: 11.3px 9.3px;
+    border: 1px solid #ebebeb; }
+  .non-login .section-content .login-form .btn-area p {
+    margin: 0; }
+    .non-login .section-content .login-form .btn-area p .btn-lg.btn-gray {
+      margin: 0;
+      text-align: center;
+      display: inline-block; }
+
+/* id-confirm */
+.id-confirm .section-content .login-form p {
+  font-size: 10px;
+  color: #666;
+  text-align: center;
+  letter-spacing: -.5px;
+  line-height: 14x;
+  margin-bottom: 10px; }
+.id-confirm .section-content .login-form .btn-area p {
+  margin: 0; }
+  .id-confirm .section-content .login-form .btn-area p .btn-lg {
+    margin: 0;
+    display: inline-block; }
 
 /*# sourceMappingURL=member.css.map */
