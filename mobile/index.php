@@ -143,10 +143,10 @@
                             <img src="/mobile/assets/images/main/menu_img_01.jpg" class="img-responsive" alt="상품 이미지">
                         </p>
                         <div class="details">
-                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <h5>일식단품(1인분)</h5>
                             <p class="amunt">
-                                299,000<i>원</i>
-                                <small>400,000원</small>
+                                19,000<i>원</i>
+                                <small>25,000원</small>
                             </p>
                         </div>
                     </a>
@@ -157,10 +157,10 @@
                             <img src="/mobile/assets/images/main/menu_img_02.jpg" class="img-responsive" alt="상품 이미지">
                         </p>
                         <div class="details">
-                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <h5>양식단품(1인분)</h5>
                             <p class="amunt">
-                                299,000<i>원</i>
-                                <small>400,000원</small>
+                                15,900<i>원</i>
+                                <small>18,000원</small>
                             </p>
                         </div>
                     </a>
@@ -171,10 +171,10 @@
                             <img src="/mobile/assets/images/main/menu_img_03.jpg" class="img-responsive" alt="상품 이미지">
                         </p>
                         <div class="details">
-                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <h5>한식단품(1인분)</h5>
                             <p class="amunt">
-                                299,000<i>원</i>
-                                <small>400,000원</small>
+                                15,900<i>원</i>
+                                <small>18,000원</small>
                             </p>
                         </div>
                     </a>
@@ -185,10 +185,10 @@
                             <img src="/mobile/assets/images/main/menu_img_04.jpg" class="img-responsive" alt="상품 이미지">
                         </p>
                         <div class="details">
-                            <h5>홈파티 메뉴A (10인분)</h5>
+                            <h5>일식단품(1인분)</h5>
                             <p class="amunt">
-                                299,000<i>원</i>
-                                <small>400,000원</small>
+                                19,000<i>원</i>
+                                <small>25,000원</small>
                             </p>
                         </div>
                     </a>

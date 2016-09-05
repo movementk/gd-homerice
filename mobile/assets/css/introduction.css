@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+/* introduction */
+.gd-intro h3 {
+  font-size: 21px;
+  text-align: center;
+  color: #222;
+  font-weight: bold;
+  font-family: 'Nanum Myeongjo', serif;
+  margin-bottom: 30px; }
+.gd-intro .section-content {
+  text-align: center; }
+  .gd-intro .section-content div h4 {
+    font-size: 13.3px;
+    color: #222;
+    font-weight: bold;
+    letter-spacing: -1px; }
+  .gd-intro .section-content div p {
+    font-size: 10px;
+    color: #999;
+    line-height: 12.6px;
+    margin-top: 16px;
+    letter-spacing: -.5px; }
+  .gd-intro .section-content div .bold-txt {
+    font-size: 15px;
+    color: #9b0a0f;
+    font-weight: 500;
+    line-height: 17.6px; }
+    .gd-intro .section-content div .bold-txt:last-child {
+      margin-top: 31.6px; }
+  .gd-intro .section-content .philosophy {
+    margin-top: 34.3px; }
+    .gd-intro .section-content .philosophy ul li {
+      margin-top: 26px; }
+      .gd-intro .section-content .philosophy ul li figure {
+        text-align: center; }
+        .gd-intro .section-content .philosophy ul li figure img {
+          display: inline-block;
+          width: 109.6px; }
+        .gd-intro .section-content .philosophy ul li figure figcaption h5 {
+          margin: 16px 0 7px; }
+        .gd-intro .section-content .philosophy ul li figure figcaption p {
+          margin-top: 0; }
+
+/*# sourceMappingURL=introduction.css.map */

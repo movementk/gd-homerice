@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* 공통 */
+.policy h3 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 29.6px; }
+.policy .section-content {
+  font-size: 10px;
+  color: #666;
+  line-height: 15px;
+  letter-spacing: -.5px; }
+
+/*# sourceMappingURL=policy.css.map */
