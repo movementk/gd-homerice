@@ -29,12 +29,12 @@
                             <dd>299,000원</dd>
                             <dt>포인트</dt>
                             <dd>2,990원</dd>
+                            <dt>배송비</dt>
+                            <dd>착불</dd>
                             <dt>수량</dt>
                             <dd>2</dd>
                             <dt>결제가</dt>
                             <dd class="color-bold">328,900원</dd>
-                            <dt>상태</dt>
-                            <dd class="color-bold">배송완료</dd>
                         </dl>
                     </div>
                 </div>
@@ -158,9 +158,9 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th><label for="addr">주소</label></th>
+                                    <th><label for="address">주소</label></th>
                                     <td class="addr">
-                                        <input type="text" id="addr" class="form-control">
+                                        <input type="text" id="address" class="form-control">
                                         <div class="btn-area">
                                             <p>
                                                 <a href="#" class="btn btn-xs btn-default">주소검색</a>
@@ -202,6 +202,106 @@
                         </table>
                     </div>
                 </section>
+                <section class="common-section">
+                    <h5>포인트/쿠폰 할인</h5>
+                    <div class="table-wrap">
+                        <table class="table table-bordered point-coupon">
+                            <colgroup>
+                                <col style="width: 80px;">
+                                <col style="width: 220px;">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th><label for="coupon">쿠폰</label></th>
+                                    <td>
+                                        <p class="reference">
+                                            사용가능 쿠폰 <i>0</i>장 /
+                                            보유쿠폰 <i>1</i>장
+                                        </p>
+                                        <input type="text" class="form-control" id="coupon"> 원
+                                        <select>
+                                            <option>선택하세요</option>
+                                            <option>쿠폰1</option>
+                                            <option>쿠폰2</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="point">포인트</label></th>
+                                    <td>
+                                        <p class="reference">
+                                            사용가능 포인트 <i>1,000</i>원
+                                        </p>
+                                        <input type="text" class="form-control" id="point"> 원
+                                        <div class="btn-area">
+                                            <p>
+                                                <a href="#" class="btn btn-default btn-xs" role="button">전액사용</a>
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <section class="common-section">
+                    <h5>결제정보</h5>
+                    <div class="table-wrap">
+                        <table class="table table-bordered point-coupon">
+                            <colgroup>
+                                <col style="width: 80px;">
+                                <col style="width: 220px;">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>최종결제금액</th>
+                                    <td class="total-amount"><b>348,800</b>원</td>
+                                </tr>
+                                <tr>
+                                    <th>추가배송비</th>
+                                    <td>
+                                        0원
+                                        <p class="delivery-charge">
+                                            (지역에 따라 추가되는 도선료 등의 배송비입니다.)
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>결제방법선택</th>
+                                    <td>
+                                        <p class="amount-select">
+                                            <input type="radio" id="account">
+                                            <label for="account">실시간 계좌이체</label>
+                                        </p>
+                                        <p  class="amount-select">
+                                            <input type="radio" id="card">
+                                            <label for="card">신용카드</label>
+                                        </p>
+                                        <p  class="amount-select">
+                                            <input type="radio" id="bank">
+                                            <label for="bank">무톤장입금</label>
+                                        </p>
+                                        <hr>
+                                        <dl>
+                                            <dt class="bank-name"><label for="bank-name">입금자명</label></dt>
+                                            <dd>
+                                                <input type="text" class="form-control" id="bank-name">
+                                            </dd>
+                                            <dt>입금은행</dt>
+                                            <dd>국민은행 00000 - 00 00000 (홈라이스)</dd>
+                                        </dl>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <div class="btn-area total-btn">
+                    <p>
+                        <a href="#" class="btn btn-xs btn-red" role="button">주문하기</a>
+                        <a href="#" class="btn btn-xs btn-default" role="button">취소</a>
+                    </p>
+                </div>
             </form>
         </div>
     </section>

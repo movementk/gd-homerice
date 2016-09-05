@@ -76,16 +76,17 @@ label {
         .notice-list {
             li {
                 padding: 11.3px 7.3px;
-                border-top: 1.33px solid #d4d4d4;
+                border-top: 2px solid #d4d4d4;
                 a {
                     display: inline-block;
-                    min-width: 180px;
+                    width: 64%;
                     overflow: hidden;
                     white-space: nowrap;
                     text-overflow: ellipsis;
                     color: #666;
                 }
                 .user-info {
+                    float: right;
                     display: inline-block;
                     p {
                         display: inline-block;
@@ -93,12 +94,12 @@ label {
                         color: #666;
                     }
                     .user-name {
-                        min-width: 43px;
+                        width: 43px;
                     }
                 }
             }
             li:last-child {
-                border-bottom: 1.33px solid #d4d4d4;
+                border-bottom: 2px solid #d4d4d4;
             }
         }
         .paging {

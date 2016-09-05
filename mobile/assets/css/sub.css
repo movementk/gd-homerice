@@ -64,24 +64,25 @@ label {
       border-color: #ebebeb; }
   .sub .container .notice-list li {
     padding: 11.3px 7.3px;
-    border-top: 1.33px solid #d4d4d4; }
+    border-top: 2px solid #d4d4d4; }
     .sub .container .notice-list li a {
       display: inline-block;
-      min-width: 180px;
+      width: 64%;
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
       color: #666; }
     .sub .container .notice-list li .user-info {
+      float: right;
       display: inline-block; }
       .sub .container .notice-list li .user-info p {
         display: inline-block;
         font-size: 10px;
         color: #666; }
       .sub .container .notice-list li .user-info .user-name {
-        min-width: 43px; }
+        width: 43px; }
   .sub .container .notice-list li:last-child {
-    border-bottom: 1.33px solid #d4d4d4; }
+    border-bottom: 2px solid #d4d4d4; }
   .sub .container .paging {
     text-align: center; }
     .sub .container .paging .pagination {

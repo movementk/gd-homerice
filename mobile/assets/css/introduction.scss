@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+/* introduction */
+.gd-intro {
+    h3 {
+        font-size: 21px;
+        text-align: center;
+        color: #222;
+        font-weight: bold;
+        font-family: 'Nanum Myeongjo', serif;
+        margin-bottom: 30px;
+    }
+    .section-content {
+        text-align: center;
+        div {
+            h4 {
+                font-size: 13.3px;
+                color: #222;
+                font-weight: bold;
+                letter-spacing: -1px;
+
+            }
+            p {
+                font-size: 10px;
+                color: #999;
+                line-height: 12.6px;
+                margin-top: 16px;
+                letter-spacing: -.5px;
+            }
+            .bold-txt {
+                font-size: 15px;
+                color: #9b0a0f;
+                font-weight: 500;
+                line-height: 17.6px;
+                &:last-child {
+                    margin-top: 31.6px;
+                }
+            }
+        }
+        .philosophy {
+            margin-top: 34.3px;
+            ul {
+                li {
+                    margin-top: 26px;
+                    figure {
+                        text-align: center;
+                        img {
+                            display: inline-block;
+                            width: 109.6px;
+                        }
+                        figcaption {
+                            h5 {
+                                margin: 16px 0 7px;
+                            }
+                            p {
+                                margin-top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

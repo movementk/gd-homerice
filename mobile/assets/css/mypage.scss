@@ -671,12 +671,257 @@
                 }
             }
         }
+        .table.point-coupon {
+            border-color: #ebebeb;
+            tbody {
+                tr {
+                    th {
+                        color: #666;
+                        vertical-align: middle;
+                        border-color: #ebebeb;
+                        background-color: #f9f9f9;
+                    }
+                    td {
+                        text-align: left !important;
+                        border-color: #ebebeb;
+                        .reference {
+                            display: block;
+                            font-size: 10px;
+                            color: #666;
+                            margin-bottom: 6.66px;
+                            i {
+                                font-size: 10px;
+                                color: #9f0a0e;
+                                font-style: normal;
+                            }
+                        }
+                        .form-control {
+                            display: inline-block;
+                            vertical-align: middle;
+                            width: 27%;
+                        }
+                        select {
+                            width:  121.3px;
+                            height: 29.6px;
+                            margin-left: 7.3px;
+                            border: 1px solid #ebebeb;
+                        }
+                        .btn-area {
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-left: 7.3px;
+                        }
+                        .delivery-charge {
+                            letter-spacing: -1px;
+                        }
+                        .amount-select {
+                            display: inline-block;
+                            margin-right: 25.6px;
+                            line-height: 26px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+
+                        }
+                        input[type=radio] {
+                            display: inline-block;
+                        }
+                        label {
+                            color: #666;
+                            font-size: 10px;
+                        }
+                        hr {
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                        }
+                        dl {
+                            overflow: hidden;
+                            dt {
+                                width: 50px;
+                                float: left;
+                                clear: both;
+                            }
+                            .bank-name {
+                                margin-top: 7px;
+                            }
+                            dd {
+                                float: left;
+                                width: 65%;
+                                .form-control {
+                                    width: 70%;
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .total-amount {
+                        font-size: 15px;
+                        color: #222;
+                        b {
+                            color: #9f0a0e;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-area.total-btn {
+        text-align: center;
+        margin-top: 26.6px;
+        p {
+            float: none;
+            .btn-red {
+                margin-right: 7px;
+            }
+        }
     }
 }
-
-
-
-
+/* basket */
+.basket {
+    .order-info {
+        margin-bottom: 0;
+    }
+    .btn-option {
+        width: 100%;
+        display: block;
+        margin-bottom: 26.6px;
+        p {
+            float: none;
+            .btn-lg {
+                width: 100% !important;
+            }
+        }
+    }
+    .total-btn {
+        p {
+            .btn.btn-position {
+                margin: 0 7px;
+            }
+        }
+    }
+}
+/* modal */
+.modal-dialog {
+    margin-top: 108px;
+    .modal-content {
+        padding: 0 10px;
+        border-radius: 0;
+        .modal-header {
+            padding: 13.6px 0;
+            border: 0;
+            h4 {
+                font-size: 12px;
+                color: #222;
+                font-weight: bold;
+            }
+            p {
+                font-size: 11px;
+                color: #666;
+                select {
+                    margin-left: 40px;
+                    width: 68%;
+                    height: 23.3px;
+                    border: 1px solid #d8d8d8;
+                }
+            }
+        }
+        .modal-body {
+            padding: 13.6px 0;
+            border-top: 1px solid #d4d4d4;
+            border-bottom: 1px solid #d4d4d4;
+            dl {
+                overflow: hidden;
+                dt {
+                    float: left;
+                    clear: both;
+                    width: 155.6px;
+                    height: 23.3px;
+                    line-height: 23.3px;
+                    font-size: 11px;
+                    color: #666;
+                    font-weight: 300;
+                    letter-spacing: -1px;
+                }
+                .addition {
+                    font-size: 11px;
+                    float: right;
+                    margin-bottom: 10px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    .btn-area {
+                        display: inline-block;
+                        p {
+                            overflow: hidden;
+                            .btn {
+                                float: left;
+                                width: 24.3px;
+                                height: 23.3px;
+                                border: 1px solid #d8d8d8;
+                                border-radius: 0;
+                            }
+                            .btn-minus {
+                                background-image: url(/mobile/assets/images/mypage/btn-minus.png);
+                                background-repeat: no-repeat;
+                                background-size: 10px auto;
+                                background-position: 50% 50%;
+                            }
+                            .btn-plus {
+                                background-image: url(/mobile/assets/images/mypage/btn-plus.png);
+                                background-repeat: no-repeat;
+                                background-size: 10px auto;
+                                background-position: 50% 50%;
+                            }
+                            span {
+                                float: left;
+                                display: block;
+                                width: 32.6px;
+                                height: 23.3px;
+                                font-size: 11px;
+                                text-align: center;
+                                line-height: 22px;
+                                border-top: 1px solid #d8d8d8;
+                                border-bottom: 1px solid #d8d8d8;
+                            }
+                        }
+                    }
+                    .del {
+                        display: inline-block;
+                        margin-left: 10px;
+                        vertical-align: top;
+                        p {
+                            .btn-del {
+                                width: 24.3px;
+                                height: 23.3px;
+                                border-radius: 0;
+                                padding: 0;
+                                border: 1px solid #d8d8d8;
+                                background-image: url(/mobile/assets/images/mypage/del_btn.png);
+                                background-repeat: no-repeat;
+                                background-size: 9.3px auto;
+                                background-position: 50% 50%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .modal-footer {
+            border: 0;
+            text-align: right;
+            padding: 13.6px 0;
+            .amount {
+                font-size: 12px;
+                color: #666;
+                margin-bottom: 13.6px;
+                i {
+                    font-style: normal;
+                    color: #9f080d;
+                }
+            }
+        }
+    }
+}
 
 
 
