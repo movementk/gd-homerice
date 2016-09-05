@@ -121,6 +121,40 @@
 }
 /* review */
 .review {
+    .search-area {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 17px;
+        .form-group {
+            float: left;
+            margin-bottom: 0;
+            &:nth-of-type(2) {
+                width: 66%;
+                float: right;
+                .form-control {
+                    padding-right: 35px;
+                    height: 23.3px;
+                }
+            }
+            select {
+                width: 90px;
+                height: 23.3px;
+                padding: 0;
+            }
+        }
+        .btn {
+            position: absolute; 
+            top: 0;
+            right: 0;
+            width: 30px;
+            height: 23.3px;
+            color: #fff;
+            padding: 0;
+            border-radius: 0;
+            background-color: #9f080d;
+
+        }
+    }
     .table-wrap {
         .table {
             thead {
@@ -133,12 +167,13 @@
             tbody {
                 tr {
                     td {
-
+                        letter-spacing: -.5px;
                     }
                     .subject {
                         text-align: left !important;
-                        letter-spacing: -.5px;
                         a {
+                            display: block;
+                            font-size: 10px;
                             color: #666;
                             &:hover {
                                 text-decoration: none;
@@ -147,19 +182,18 @@
                     }
                     .reply {
                         text-align: left !important;
-                        letter-spacing: -.5px;
                         overflow: hidden;
                         p {
                             img {
                                 float: left;
                                 vertical-align: top;
                                 width: 10px;
-
                             }
                         }
                         a {
                             float: left;
-                            padding-left: 10px;
+                            padding-left: 5px;
+                            font-size: 10px;
                             color: #666;
                             vertical-align: top;
                         }

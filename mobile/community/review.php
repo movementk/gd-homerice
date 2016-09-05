@@ -8,6 +8,25 @@
     <div class="container">
         <section class="review">
             <h3>Q&amp;A</h3>
+            <div class="search-area">
+                <form>
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option value="title">제목</option>
+                            <option value="content">내용</option>
+                            <option value="username">작성자</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="search-keyword" class="sr-only">검색어</label>
+                        <input id="search-keyword" type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+            </div>
             <div class="table-wrap">
                 <table class="table table-bordered">
                     <colgroup>
@@ -25,7 +44,7 @@
                     <tbody>
                         <tr>
                             <td class="subject">
-                                <a href="#">구성 문의합니다.</a>
+                                <a href="#">구성 문의합니다</a>
                             </td>
                             <td>김주희</td>
                             <td>2016-08-20</td>

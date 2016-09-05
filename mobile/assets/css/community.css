@@ -71,16 +71,45 @@
     margin-right: 7px; }
 
 /* review */
-.review .table-wrap .table tbody tr .subject {
-  text-align: left !important;
+.review .search-area {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 17px; }
+  .review .search-area .form-group {
+    float: left;
+    margin-bottom: 0; }
+    .review .search-area .form-group:nth-of-type(2) {
+      width: 66%;
+      float: right; }
+      .review .search-area .form-group:nth-of-type(2) .form-control {
+        padding-right: 35px;
+        height: 23.3px; }
+    .review .search-area .form-group select {
+      width: 90px;
+      height: 23.3px;
+      padding: 0; }
+  .review .search-area .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 23.3px;
+    color: #fff;
+    padding: 0;
+    border-radius: 0;
+    background-color: #9f080d; }
+.review .table-wrap .table tbody tr td {
   letter-spacing: -.5px; }
+.review .table-wrap .table tbody tr .subject {
+  text-align: left !important; }
   .review .table-wrap .table tbody tr .subject a {
+    display: block;
+    font-size: 10px;
     color: #666; }
     .review .table-wrap .table tbody tr .subject a:hover {
       text-decoration: none; }
 .review .table-wrap .table tbody tr .reply {
   text-align: left !important;
-  letter-spacing: -.5px;
   overflow: hidden; }
   .review .table-wrap .table tbody tr .reply p img {
     float: left;
@@ -88,7 +117,8 @@
     width: 10px; }
   .review .table-wrap .table tbody tr .reply a {
     float: left;
-    padding-left: 10px;
+    padding-left: 5px;
+    font-size: 10px;
     color: #666;
     vertical-align: top; }
 .review .btn-area {
