@@ -1125,49 +1125,152 @@ label {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* modal */
-/*
-.modal-backdrop.in {
-    opacity: 0;
-    position: relative;
-}
-.modal-backdrop {
-    position: fixed;
-}
-  */
 .modal {
     .modal-content {
+        width: 420px;
+        padding: 20px;
         box-shadow: none;
         border-radius: 0;
+        .modal-header {
+            padding: 0;
+            padding-bottom: 10px;
+            border-color: #d4d4d4;
+            h4 {
+                font-size: 15px;
+                color: #222;
+            }
+            dl {
+                overflow: hidden;
+                margin-top: 10px;
+                dt {
+                    float: left;
+                    clear: both;
+                    height: 24px;
+                    font-size: 13px;
+                    color: #666;
+                    line-height: 24px;
+                    margin-right: 62px;
+                }
+                dd {
+                    float: left;
+                    select {
+                        width: 152px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+        .modal-body {
+            padding: 10px 0;
+            border-color: #d4d4d4;
+            dl {
+                width: 100%;
+                overflow: hidden;
+                dt {
+                    float: left;
+                    clear: both;
+                    width: 206px;
+                    height: 36px;
+                    line-height: 36px;
+                    font-size: 13px;
+                    color: #666;
+                }
+                dd {
+                    float: left;
+                    width: 172px;
+                    height: 36px;
+                    margin-bottom: 10px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    .btn-area {
+                        overflow: hidden;
+                        display: inline-block;
+                        p {
+                            .btn {
+                                display: inline-block;
+                                float: left;
+                                width: 36px;
+                                height: 36px;
+                                border: 1px solid #d4d4d4;
+                            }
+                            .btn.btn-minus {
+                                background-image: url(/assets/images/menu/minus_btn.png);
+                                background-repeat: no-repeat;
+                                background-position: 50% 50%;
+                            }
+                            .btn.btn-plus {
+                                background-image: url(/assets/images/menu/plus_btn.png);
+                                background-repeat: no-repeat;
+                                background-position: 50% 50%;
+                            }
+                            span {
+                                float: left;
+                                display: block;
+                                width: 50px;
+                                height: 36px;
+                                line-height: 36px;
+                                font-size: 13px;
+                                color: #666;
+                                text-align: center;
+                                border-top: 1px solid #d4d4d4;
+                                border-bottom: 1px solid #d4d4d4;
+                            }
+                        }
+                    }
+                    .del {
+                        display: inline-block;
+                        margin-left: 10px;
+                        p {
+                            .btn-del {
+                                display: block;
+                                width: 36px;
+                                height: 36px;
+                                border: 1px solid #d4d4d4;
+                                background-image: url(/assets/images/menu/del_btn.png);
+                                background-repeat: no-repeat;
+                                background-position: 50% 50%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .modal-footer {
+            padding-top: 20px;
+            .amount {
+                font-size: 15px;
+                color: #555;
+                text-align: right;
+                font-weight: 500;
+                i {
+                    display: inline-block;
+                    font-style: normal;
+                    color: #9f080d;
+                    margin-left: 10px;
+                }
+            }
+            .btn-area {
+                text-align: center;
+                margin-top: 25px;
+                p {
+                    .btn {
+                        width: 115px;
+                        height: 45px;
+                        padding: 12px 12px;
+                    }
+                    .btn-red {
+                        margin-right: 6px;
+                    }
+                }
+            }
+        }
     }
 }
-
+.modal-backdrop.in {
+    margin-top: -200px;
+    opacity: 0 ;
+}
 .modal .modal-dialog {
     position: absolute;
     top: 140px;
@@ -1175,14 +1278,3 @@ label {
     margin-top: 0;
     margin-bottom: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
