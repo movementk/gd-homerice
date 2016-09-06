@@ -27,7 +27,7 @@
                         <h3>Home Party</h3>
                         <hr>
                         <p>생일, 모임, 돌잔치, 캠핑 등<br>스페셜 푸드가 필요한날엔<br>홈파티 메뉴로 즐겨보세요</p>
-                        <a href="#">
+                        <a href="/menu/party_menu.php">
                             <span><img src="/assets/images/main/aroow_w.png" alt="버튼 이미지"></span>
                         </a>
                     </div>
@@ -39,7 +39,7 @@
                         <h3>Single Dish</h3>
                         <hr>
                         <p>야유회, 운동회, 세미나 등 간편한<br>푸드가 필요한 날엔<br>단품 메뉴로 즐겨보세요</p>
-                        <a href="#">
+                        <a href="/menu/single_menu.php">
                             <span><img src="/assets/images/main/aroow_w.png" alt="버튼 이미지"></span>
                         </a>
                     </div>
@@ -75,8 +75,10 @@
             </section>
         </div>
     </main>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    <script src="/assets/js/quick.js"></script>
     <script>
         $('.visual ul').bxSlider({
             auto: true
