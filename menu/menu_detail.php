@@ -50,7 +50,7 @@
                                 </div>
                                 <div class="del">
                                     <p>
-                                        <a href="javascript:;" class="btn-del glyphicon glyphicon-remove" role="button"></a>
+                                        <a href="javascript:;" class="btn-del" role="button"></a>
                                     </p>
                                 </div>
                             </dd>
@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="del">
                                     <p>
-                                        <a href="javascript:;" class="btn-del glyphicon glyphicon-remove" role="button"></a>
+                                        <a href="javascript:;" class="btn-del" role="button"></a>
                                     </p>
                                 </div>
                             </dd>
@@ -80,7 +80,7 @@
                                 </div>
                                 <div class="del">
                                     <p>
-                                        <a href="javascript:;" class="btn-del glyphicon glyphicon-remove" role="button"></a>
+                                        <a href="javascript:;" class="btn-del" role="button"></a>
                                     </p>
                                 </div>
                             </dd>

@@ -169,13 +169,13 @@
                                 right: 0;
                                 p {
                                     .btn-del {
-                                        display: inline-block;
-                                        text-align: center;
-                                        line-height: 36px;
-                                        color: #ccc;
+                                        display: block;
                                         width: 36px;
                                         height: 36px;
                                         border: 1px solid #d4d4d4;
+                                        background-image: url(/assets/images/menu/del_btn.png);
+                                        background-repeat: no-repeat;
+                                        background-position: 50% 50%;
                                         &:hover,
                                         &:focus {
                                             text-decoration: none;

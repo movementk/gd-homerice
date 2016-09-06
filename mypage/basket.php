@@ -176,22 +176,65 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Modal title</h4>
+                            <h4>추가 옵션</h4>
+                            <dl>
+                                <dt>수량추가</dt>
+                                <dd>
+                                    <select>
+                                        <option value="">선택</option>
+                                        <option value="">선택01</option>
+                                        <option value="">선택02</option>
+                                    </select>
+                                </dd>
+                            </dl>
                         </div>
                         <div class="modal-body">
-                            <p>One fine body&hellip;</p>
+                            <dl>
+                                <dt>홈파티 메뉴A (10인분) (+0원)</dt>
+                                <dd>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn btn-minus" role="button"></a>
+                                            <span>1</span>
+                                            <a href="#" class="btn btn-plus" role="button"></a>
+                                        </p>
+                                    </div>
+                                    <div class="del">
+                                        <p>
+                                            <a href="javascript:;" class="btn-del" role="button"></a>
+                                        </p>
+                                    </div>
+                                </dd>
+                                <dt>수량추가 : 1인분 추가 (+29,900원)</dt>
+                                <dd>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn btn-minus" role="button"></a>
+                                            <span>1</span>
+                                            <a href="#" class="btn btn-plus" role="button"></a>
+                                        </p>
+                                    </div>
+                                    <div class="del">
+                                        <p>
+                                            <a href="javascript:;" class="btn-del" role="button"></a>
+                                        </p>
+                                    </div>
+                                </dd>
+                            </dl>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <strong class="amount">결제금액 <i>328,900</i></strong>
+                            <div class="btn-area">
+                                <p>
+                                    <a href="#" class="btn btn-red" role="button">옵션적용</a>
+                                    <a href="#" class="btn btn-default" role="button">취소</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
 
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
