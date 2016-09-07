@@ -89,7 +89,7 @@
                         }
                         .call {
                             .form-control {
-                                width: 30%;
+                                width: 29%;
                                 display: inline-block;
                             }
                             .reference {
@@ -104,7 +104,7 @@
                         }
                         .email {
                             .form-control {
-                                width: 46%;
+                                width: 45%;
                                 display: inline-block;
                             }
                             .reference {
@@ -231,7 +231,7 @@
                 }
             }
             .details {
-                width: 68%;
+                width: 67%;
                 display: inline-block;
                 h4 {
                     font-size: 12px;
@@ -401,7 +401,7 @@
         p {
             float: right;
             .btn.btn-default {
-                letter-spacing: -1px;
+                letter-spacing: -.5px;
                 margin-right: 7px;
             }
         }
@@ -414,6 +414,7 @@
             tbody {
                 tr {
                     td {
+                        letter-spacing: -1px;
                         &:nth-of-type(2) {
                             text-align: left !important;
                             h4 {
@@ -497,7 +498,7 @@
             margin-right: 10px;
         }
         .details {
-            width: 68%;
+            width: 67%;
         }
     }
     .total {
@@ -569,7 +570,7 @@
                         }
                         .call {
                             .form-control {
-                                width: 30%;
+                                width: 29%;
                                 display: inline-block;
                             }
                             .reference {
@@ -584,7 +585,7 @@
                         }
                         .email {
                             .form-control {
-                                width: 46%;
+                                width: 45%;
                                 display: inline-block;
                             }
                             .reference {
@@ -642,7 +643,7 @@
                             overflow: hidden;
                             .form-control {
                                 float: left;
-                                width: 44%;
+                                width: 42%;
                                 margin-right: 10px;
                             }
                             > p {
@@ -698,7 +699,7 @@
                         .form-control {
                             display: inline-block;
                             vertical-align: middle;
-                            width: 27%;
+                            width: 26%;
                         }
                         select {
                             width:  121.3px;
@@ -716,7 +717,7 @@
                         }
                         .amount-select {
                             display: inline-block;
-                            margin-right: 25.6px;
+                            margin-right: 23.6px;
                             line-height: 26px;
                             &:last-child {
                                 margin-right: 0;
@@ -887,7 +888,7 @@
                     }
                     .del {
                         display: inline-block;
-                        margin-left: 10px;
+                        margin-left: 7px;
                         vertical-align: top;
                         p {
                             .btn-del {

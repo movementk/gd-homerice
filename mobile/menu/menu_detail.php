@@ -45,6 +45,11 @@
                             <a href="#" class="btn btn-plus" role="button"></a>
                         </p>
                     </div>
+                    <div class="del">
+                        <p>
+                            <a href="javascript:;" class="btn btn-del" role="button"></a>
+                        </p>
+                    </div>
                 </dd>
             </dl>
             <hr>
@@ -66,37 +71,37 @@
         <section class="info packing">
             <h3>포장용기</h3>
             <ul class="row">
-                <li class="col-xs-6 col-sm-3">
+                <li class="col-xs-6 col-sm-4">
                     <figure>
                         <img src="/mobile/assets/images/menu/menu_detail_01.gif" class="img-responsive" alt="비빔밥 용기">
                         <figcaption>단품 (비빔밥류)주문시</figcaption>
                     </figure>
                 </li>
-                <li class="col-xs-6 col-sm-3">
+                <li class="col-xs-6 col-sm-4">
                     <figure>
                         <img src="/mobile/assets/images/menu/menu_detail_02.gif" class="img-responsive" alt="홈파티 용기">
                         <figcaption>홈파티 메뉴 주문시</figcaption>
                     </figure>
                 </li>
-                <li class="col-xs-6 col-sm-3">
+                <li class="col-xs-6 col-sm-4">
                     <figure>
                         <img src="/mobile/assets/images/menu/menu_detail_03.gif" class="img-responsive" alt="단품 용기">
                         <figcaption>단품 (일식, 한식, 양식) 주문시</figcaption>
                     </figure>
                 </li>
-                <li class="col-xs-6 col-sm-3">
+                <li class="col-xs-6 col-sm-4">
                     <figure>
                         <img src="/mobile/assets/images/menu/menu_detail_04.gif" class="img-responsive" alt="단품 용기">
                         <figcaption>단품 (잔치, 일반 A / B / C ) 주문시</figcaption>
                     </figure>
                 </li>
-                <li class="col-xs-6 col-sm-3">
+                <li class="col-xs-6 col-sm-4">
                     <figure>
                         <img src="/mobile/assets/images/menu/menu_detail_05.gif" class="img-responsive" alt="국 용기">
                         <figcaption>국, 김치, 소스 등</figcaption>
                     </figure>
                 </li>
-                <li class="col-xs-6 col-sm-3">
+                <li class="col-xs-6 col-sm-4">
                     <div>
                         +나무젓가락, 일회용 숟가락,<br>
                         물티슈, 생수가 기본으로<br>

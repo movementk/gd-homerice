@@ -64,7 +64,10 @@
 
 /* menu-detail */
 .menu-detail .product-img {
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+  text-align: center; }
+  .menu-detail .product-img img {
+    display: inline-block; }
 .menu-detail h3 {
   font-size: 20px;
   color: #222;
@@ -119,13 +122,14 @@
   overflow: hidden; }
   .menu-detail .menu-count dt {
     float: left;
-    width: 200px;
+    width: 180px;
     margin: 0;
     height: 23.3px;
     line-height: 23.3px; }
   .menu-detail .menu-count dd {
     float: right; }
     .menu-detail .menu-count dd .btn-area {
+      vertical-align: top;
       display: inline-block; }
       .menu-detail .menu-count dd .btn-area p {
         overflow: hidden; }
@@ -155,6 +159,20 @@
           line-height: 22px;
           border-top: 1px solid #d8d8d8;
           border-bottom: 1px solid #d8d8d8; }
+    .menu-detail .menu-count dd .del {
+      display: inline-block;
+      margin-left: 7px;
+      vertical-align: top; }
+      .menu-detail .menu-count dd .del p .btn-del {
+        width: 24.3px;
+        height: 23.3px;
+        border-radius: 0;
+        padding: 0;
+        border: 1px solid #d8d8d8;
+        background-image: url(/mobile/assets/images/mypage/del_btn.png);
+        background-repeat: no-repeat;
+        background-size: 9.3px auto;
+        background-position: 50% 50%; }
 .menu-detail h5 {
   text-align: right;
   font-size: 20px;
@@ -188,8 +206,11 @@
   padding-top: 41.3px;
   background-image: url(/mobile/assets/images/menu/subject_bg01.png);
   background-size: 22.3px auto; }
-.product-info p img {
-  margin-top: 10px; }
+.product-info p {
+  text-align: center; }
+  .product-info p img {
+    display: inline-block;
+    margin-top: 10px; }
 
 .packing h3 {
   padding-top: 39px;

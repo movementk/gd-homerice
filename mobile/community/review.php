@@ -44,7 +44,7 @@
                     <tbody>
                         <tr>
                             <td class="subject">
-                                <a href="#">구성 문의합니다</a>
+                                <a href="#">구성 문의합니다구성 문의합니다구성 문의합니다</a>
                             </td>
                             <td>김주희</td>
                             <td>2016-08-20</td>
@@ -67,8 +67,8 @@
                             <td class="reply">
                                 <p>
                                     <img src="/mobile/assets/images/community/re.png" alt="답변">
+                                    <a href="#">안녕하세요~ 홈라이스입니다.안녕하세요~ 홈라이스입니다.</a>
                                 </p>
-                                <a href="#">안녕하세요~ 홈라이스입니다.</a>
                             </td>
                             <td>홈라이스</td>
                             <td>2016-08-20</td>
@@ -84,8 +84,8 @@
                             <td class="reply">
                                 <p>
                                     <img src="/mobile/assets/images/community/re.png" alt="답변">
+                                    <a href="#">안녕하세요~ 홈라이스입니다.안녕하세요~ 홈라이스입니다.</a>
                                 </p>
-                                <a href="#">안녕하세요~ 홈라이스입니다.</a>
                             </td>
                             <td>홈라이스</td>
                             <td>2016-08-20</td>

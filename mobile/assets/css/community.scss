@@ -28,7 +28,6 @@
                         font-size: 10px;
                         overflow: hidden;
                         text-overflow: ellipsis;
-                        width: 99%;
                         display: block;
                         white-space: nowrap;
                     }
@@ -47,9 +46,13 @@
             thead {
                 tr {
                     th {
+                        max-width: 0;
                         &:first-child {
                             text-align: left !important;
                             padding-left: 10px !important;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
                         }
                     }
                 }
@@ -62,6 +65,11 @@
                         text-align: left !important;
                         line-height: 16px;
                         padding: 17.6px 19px !important;
+                        h3 {
+                            font-size: 11px;
+                            text-align: left;
+                            margin-bottom: 10px;
+                        }
                     }
                 }
             }
@@ -170,32 +178,40 @@
                         letter-spacing: -.5px;
                     }
                     .subject {
+                        max-width: 0;
                         text-align: left !important;
                         a {
                             display: block;
                             font-size: 10px;
                             color: #666;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
                             &:hover {
                                 text-decoration: none;
                             }
                         }
                     }
                     .reply {
+                        max-width: 0;
                         text-align: left !important;
-                        overflow: hidden;
                         p {
                             img {
                                 float: left;
                                 vertical-align: top;
                                 width: 10px;
                             }
-                        }
-                        a {
-                            float: left;
-                            padding-left: 5px;
-                            font-size: 10px;
-                            color: #666;
-                            vertical-align: top;
+                            a {
+                                float: left;
+                                padding-left: 5px;
+                                font-size: 10px;
+                                color: #666;
+                                vertical-align: top;
+                                width: 90%;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                            }
                         }
                     }
                 }

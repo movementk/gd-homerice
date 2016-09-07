@@ -69,7 +69,7 @@
       float: left;
       margin-left: 10px; }
   .modify .section-content .table-wrap.join-form .table tbody tr .call .form-control {
-    width: 30%;
+    width: 29%;
     display: inline-block; }
   .modify .section-content .table-wrap.join-form .table tbody tr .call .reference {
     display: block;
@@ -79,7 +79,7 @@
       vertical-align: middle;
       margin-top: -2px; }
   .modify .section-content .table-wrap.join-form .table tbody tr .email .form-control {
-    width: 46%;
+    width: 45%;
     display: inline-block; }
   .modify .section-content .table-wrap.join-form .table tbody tr .email .reference {
     display: block;
@@ -161,7 +161,7 @@
         width: 49.66px;
         height: 49.66px; }
     .product .product-list li .details {
-      width: 68%;
+      width: 67%;
       display: inline-block; }
       .product .product-list li .details h4 {
         font-size: 12px;
@@ -289,30 +289,32 @@
   .order-view .btn-area p {
     float: right; }
     .order-view .btn-area p .btn.btn-default {
-      letter-spacing: -1px;
+      letter-spacing: -.5px;
       margin-right: 7px; }
 
 /* order-list */
-.order-list .table-wrap .table tbody tr td:nth-of-type(2) {
-  text-align: left !important; }
-  .order-list .table-wrap .table tbody tr td:nth-of-type(2) h4 {
-    font-size: 11px;
-    color: #666;
-    font-weight: bold;
-    margin-bottom: 10px; }
-  .order-list .table-wrap .table tbody tr td:nth-of-type(2) dl {
-    overflow: hidden; }
-    .order-list .table-wrap .table tbody tr td:nth-of-type(2) dl dt {
-      float: left;
-      clear: both;
-      font-weight: 300;
-      line-height: 15px; }
-      .order-list .table-wrap .table tbody tr td:nth-of-type(2) dl dt:after {
-        content: ":";
-        padding: 0 2px; }
-    .order-list .table-wrap .table tbody tr td:nth-of-type(2) dl dd {
-      float: left;
-      line-height: 15px; }
+.order-list .table-wrap .table tbody tr td {
+  letter-spacing: -1px; }
+  .order-list .table-wrap .table tbody tr td:nth-of-type(2) {
+    text-align: left !important; }
+    .order-list .table-wrap .table tbody tr td:nth-of-type(2) h4 {
+      font-size: 11px;
+      color: #666;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .order-list .table-wrap .table tbody tr td:nth-of-type(2) dl {
+      overflow: hidden; }
+      .order-list .table-wrap .table tbody tr td:nth-of-type(2) dl dt {
+        float: left;
+        clear: both;
+        font-weight: 300;
+        line-height: 15px; }
+        .order-list .table-wrap .table tbody tr td:nth-of-type(2) dl dt:after {
+          content: ":";
+          padding: 0 2px; }
+      .order-list .table-wrap .table tbody tr td:nth-of-type(2) dl dd {
+        float: left;
+        line-height: 15px; }
 .order-list .paging {
   margin-top: 26.66px; }
 
@@ -349,7 +351,7 @@
   vertical-align: top;
   margin-right: 10px; }
 .payment .order-info .details {
-  width: 68%; }
+  width: 67%; }
 .payment .total {
   margin-bottom: 10px; }
 .payment .btn-area {
@@ -398,7 +400,7 @@
       float: left;
       margin-left: 10px; }
   .payment .common-section .table-wrap.join-form .table tbody tr .call .form-control {
-    width: 30%;
+    width: 29%;
     display: inline-block; }
   .payment .common-section .table-wrap.join-form .table tbody tr .call .reference {
     display: block;
@@ -408,7 +410,7 @@
       vertical-align: middle;
       margin-top: -2px; }
   .payment .common-section .table-wrap.join-form .table tbody tr .email .form-control {
-    width: 46%;
+    width: 45%;
     display: inline-block; }
   .payment .common-section .table-wrap.join-form .table tbody tr .email .reference {
     display: block;
@@ -448,7 +450,7 @@
     overflow: hidden; }
     .payment .common-section .table-wrap.join-form .table tbody tr .map-name .form-control {
       float: left;
-      width: 44%;
+      width: 42%;
       margin-right: 10px; }
     .payment .common-section .table-wrap.join-form .table tbody tr .map-name > p {
       float: left;
@@ -487,7 +489,7 @@
     .payment .common-section .table.point-coupon tbody tr td .form-control {
       display: inline-block;
       vertical-align: middle;
-      width: 27%; }
+      width: 26%; }
     .payment .common-section .table.point-coupon tbody tr td select {
       width: 121.3px;
       height: 29.6px;
@@ -501,7 +503,7 @@
       letter-spacing: -1px; }
     .payment .common-section .table.point-coupon tbody tr td .amount-select {
       display: inline-block;
-      margin-right: 25.6px;
+      margin-right: 23.6px;
       line-height: 26px; }
       .payment .common-section .table.point-coupon tbody tr td .amount-select:last-child {
         margin-right: 0; }
@@ -629,7 +631,7 @@
                 border-bottom: 1px solid #d8d8d8; }
           .modal-dialog .modal-content .modal-body dl .addition .del {
             display: inline-block;
-            margin-left: 10px;
+            margin-left: 7px;
             vertical-align: top; }
             .modal-dialog .modal-content .modal-body dl .addition .del p .btn-del {
               width: 24.3px;

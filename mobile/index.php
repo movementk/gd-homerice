@@ -125,7 +125,7 @@
                     </a>
                 </li>
             </ul>
-            <p class="more">홈파티 메뉴 더보기<span class="glyphicon glyphicon-menu-right"></span></p>
+            <p class="more"><a href="/mobile/menu/party_menu.php">홈파티 메뉴 더보기<span class="glyphicon glyphicon-menu-right"></span></a></p>
         </div>
     </section>
     <section class="homerice-menu single-menu">
@@ -194,7 +194,7 @@
                     </a>
                 </li>
             </ul>
-            <p class="more">홈파티 메뉴 더보기<span class="glyphicon glyphicon-menu-right"></span></p>
+            <p class="more"><a href="/mobile/menu/single_menu.php">단품 메뉴 더보기<span class="glyphicon glyphicon-menu-right"></span></a></p>
         </div>
     </section>
 </main>

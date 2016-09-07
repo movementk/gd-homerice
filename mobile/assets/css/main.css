@@ -113,18 +113,21 @@
     font-size: 11px;
     text-align: center;
     font-weight: 500;
-    margin-top: 30px;
-    color: #222; }
-    #content .homerice-menu .container .more span {
-      display: inline-block;
-      width: 14px;
-      height: 14px;
-      font-size: 10px;
-      line-height: 13px;
-      vertical-align: middle;
-      margin-left: 6.6px;
-      margin-top: -2px;
-      border: 1px solid #222;
-      border-radius: 50%; }
+    margin-top: 30px; }
+    #content .homerice-menu .container .more a {
+      color: #222; }
+      #content .homerice-menu .container .more a:hover, #content .homerice-menu .container .more a:focus {
+        text-decoration: none; }
+      #content .homerice-menu .container .more a span {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        font-size: 10px;
+        line-height: 13px;
+        vertical-align: middle;
+        margin-left: 6.6px;
+        margin-top: -2px;
+        border: 1px solid #222;
+        border-radius: 50%; }
 
 /*# sourceMappingURL=main.css.map */
