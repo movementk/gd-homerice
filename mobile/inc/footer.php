@@ -12,8 +12,8 @@
     </div>
     <div class="policy">
         <ul>
-            <li><a href="#">이용약관</a></li>
-            <li><a href="#">개인정보보호정책</a></li>
+            <li><a href="/mobile/policy/service_terms.php">이용약관</a></li>
+            <li><a href="/mobile/policy/privacy_statsment.php">개인정보보호정책</a></li>
             <li><a href="#">이용안내</a></li>
             <li><a href="#">매장정보</a></li>
         </ul>
@@ -109,9 +109,9 @@
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" aria-labelledby="familysites-menu">
-                <li><a href="#">사이트 #1</a></li>
-                <li><a href="#">사이트 #2</a></li>
-                <li><a href="#">사이트 #3</a></li>
+                <li><a href="#" target="_blank">사이트 #1</a></li>
+                <li><a href="#" target="_blank">사이트 #2</a></li>
+                <li><a href="#" target="_blank">사이트 #3</a></li>
             </ul>
         </div>
         <p class="copyright">
